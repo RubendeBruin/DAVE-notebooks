@@ -1,0 +1,4836 @@
+<html>
+<head>
+<style type="text/css">
+      .ds_criteria_header {
+                          font-size:9pt;
+                          color:#000000;
+                          font-style:normal;
+                          font-weight:bold;
+                          text-align:left;
+                          background-color:#DFDFDF;
+                          border-radius:0;
+                          margin-top:0;
+                          margin-left:0;
+                          margin-bottom:0;
+                          margin-right:0;
+                          padding-top:0;
+                          padding-left:0;
+                          padding-bottom:0;
+                          padding-right:0;
+                          }
+      .ds_frontpagetitle {
+                         font-family:"arial";
+                         font-size:26pt;
+                         font-style:normal;
+                         font-weight:bold;
+                         text-align:left;
+                         border-top-style:solid;
+                         border-top-width:3;
+                         border-top-color:#000000;
+                         border-bottom-style:solid;
+                         border-bottom-width:3;
+                         border-bottom-color:#000000;
+                         border-radius:0;
+                         margin-top:0;
+                         margin-left:0;
+                         margin-bottom:0;
+                         margin-right:0;
+                         padding-top:0;
+                         padding-left:0;
+                         padding-bottom:0;
+                         padding-right:0;
+                         }
+      .ds_pagefooter {
+                     font-size:7pt;
+                     color:#808080;
+                     font-style:italic;
+                     font-weight:normal;
+                     text-align:left;
+                     border-top-style:solid;
+                     border-top-width:1;
+                     border-top-color:#000000;
+                     border-radius:0;
+                     margin-top:0;
+                     margin-left:0;
+                     margin-bottom:0;
+                     margin-right:0;
+                     padding-top:0;
+                     padding-left:0;
+                     padding-bottom:0;
+                     padding-right:0;
+                     }
+      .ds_pageheader {
+                     font-size:8pt;
+                     color:#000000;
+                     font-style:normal;
+                     font-weight:normal;
+                     text-align:left;
+                     border-bottom-style:solid;
+                     border-bottom-width:2;
+                     border-bottom-color:#000000;
+                     border-radius:0;
+                     margin-top:0;
+                     margin-left:0;
+                     margin-bottom:20;
+                     margin-right:0;
+                     padding-top:0;
+                     padding-left:0;
+                     padding-bottom:0;
+                     padding-right:0;
+                     }
+      .ds_pagenumber {
+                     font-size:10pt;
+                     color:#FFFFFF;
+                     font-style:normal;
+                     font-weight:normal;
+                     text-align:left;
+                     background-color:#808080;
+                     border-radius:300;
+                     margin-top:2;
+                     margin-left:2;
+                     margin-bottom:2;
+                     margin-right:2;
+                     padding-top:5;
+                     padding-left:5;
+                     padding-bottom:5;
+                     padding-right:5;
+                     }
+      .ds_table_footer_row {
+                           font-size:90%;
+                           font-style:normal;
+                           font-weight:bold;
+                           text-align:left;
+                           border-top-style:solid;
+                           border-top-width:1;
+                           border-top-color:#000000;
+                           border-radius:0;
+                           margin-top:0;
+                           margin-left:0;
+                           margin-bottom:0;
+                           margin-right:0;
+                           padding-top:0;
+                           padding-left:0;
+                           padding-bottom:0;
+                           padding-right:0;
+                           }
+      .ds_table_header {
+                       font-style:normal;
+                       font-weight:normal;
+                       text-align:left;
+                       border-top-style:solid;
+                       border-top-width:1;
+                       border-top-color:#000000;
+                       border-bottom-style:solid;
+                       border-bottom-width:1;
+                       border-bottom-color:#000000;
+                       border-radius:0;
+                       margin-top:0;
+                       margin-left:0;
+                       margin-bottom:0;
+                       margin-right:0;
+                       padding-top:0;
+                       padding-left:0;
+                       padding-bottom:0;
+                       padding-right:0;
+                       }
+      .ds_table_small {
+                      font-size:6pt;
+                      font-style:normal;
+                      font-weight:normal;
+                      text-align:left;
+                      border-radius:0;
+                      margin-top:0;
+                      margin-left:0;
+                      margin-bottom:0;
+                      margin-right:0;
+                      padding-top:0;
+                      padding-left:0;
+                      padding-bottom:0;
+                      padding-right:0;
+                      }
+      .ds_table_title {
+                      font-size:11pt;
+                      font-style:normal;
+                      font-weight:bold;
+                      text-align:left;
+                      text-transform:capitalize;
+                      background-color:#DFDFDF;
+                      border-top-style:solid;
+                      border-top-width:1;
+                      border-top-color:#808080;
+                      border-bottom-style:solid;
+                      border-bottom-width:2;
+                      border-bottom-color:#000000;
+                      border-radius:0;
+                      margin-top:0;
+                      margin-left:0;
+                      margin-bottom:0;
+                      margin-right:0;
+                      padding-top:0;
+                      padding-left:0;
+                      padding-bottom:0;
+                      padding-right:0;
+                      }
+      .ds_table_units {
+                      font-size:90%;
+                      color:#808080;
+                      font-style:normal;
+                      font-weight:normal;
+                      text-align:right;
+                      border-radius:0;
+                      margin-top:0;
+                      margin-left:0;
+                      margin-bottom:0;
+                      margin-right:0;
+                      padding-top:0;
+                      padding-left:0;
+                      padding-bottom:0;
+                      padding-right:0;
+                      }
+      body {
+           font-family:"segoe ui";
+           font-size:9pt;
+           color:#000000;
+           font-style:normal;
+           font-weight:normal;
+           text-align:left;
+           background-color:#FFFFFF;
+           border-radius:0;
+           margin-top:0;
+           margin-left:0;
+           margin-bottom:0;
+           margin-right:0;
+           padding-top:0;
+           padding-left:0;
+           padding-bottom:0;
+           padding-right:0;
+           }
+      h1 {
+         font-size:17pt;
+         color:#073F71;
+         font-style:normal;
+         font-weight:bold;
+         text-align:left;
+         text-transform:capitalize;
+         border-bottom-style:solid;
+         border-bottom-width:1;
+         border-bottom-color:#808080;
+         border-radius:0;
+         margin-top:0;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      h2 {
+         font-size:16pt;
+         color:#073F71;
+         font-style:italic;
+         font-weight:bold;
+         text-align:left;
+         border-radius:0;
+         margin-top:15;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      h3 {
+         font-size:14pt;
+         color:#073F71;
+         font-style:italic;
+         font-weight:bold;
+         text-align:left;
+         border-radius:0;
+         margin-top:10;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      h4 {
+         font-size:12pt;
+         color:#073F71;
+         font-style:italic;
+         font-weight:bold;
+         text-align:left;
+         border-radius:0;
+         margin-top:5;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      h5 {
+         font-size:10pt;
+         color:#073F71;
+         font-style:italic;
+         font-weight:bold;
+         text-align:left;
+         border-radius:0;
+         margin-top:5;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      h6 {
+         font-size:8pt;
+         color:#073F71;
+         font-style:italic;
+         font-weight:bold;
+         text-align:left;
+         border-radius:0;
+         margin-top:5;
+         margin-left:0;
+         margin-bottom:0;
+         margin-right:0;
+         padding-top:0;
+         padding-left:0;
+         padding-bottom:0;
+         padding-right:0;
+         }
+      img {
+          font-style:normal;
+          font-weight:normal;
+          text-align:left;
+          border-radius:0;
+          margin-top:0;
+          margin-left:0;
+          margin-bottom:0;
+          margin-right:0;
+          padding-top:1;
+          padding-left:1;
+          padding-bottom:1;
+          padding-right:1;
+          }
+      pre {
+          font-family:"courier new";
+          font-size:6pt;
+          color:#808080;
+          font-style:normal;
+          font-weight:normal;
+          text-align:left;
+          border-radius:0;
+          margin-top:0;
+          margin-left:0;
+          margin-bottom:0;
+          margin-right:0;
+          padding-top:0;
+          padding-left:0;
+          padding-bottom:0;
+          padding-right:0;
+          }
+      table {
+            font-size:8pt;
+            font-style:normal;
+            font-weight:normal;
+            text-align:left;
+            border-radius:0;
+            margin-top:0;
+            margin-left:0;
+            margin-bottom:0;
+            margin-right:0;
+            padding-top:0;
+            padding-left:0;
+            padding-bottom:0;
+            padding-right:0;
+            }
+      tbody {
+            font-style:normal;
+            font-weight:normal;
+            text-align:left;
+            border-top-style:solid;
+            border-top-width:1;
+            border-top-color:#000000;
+            border-bottom-style:solid;
+            border-bottom-width:1;
+            border-bottom-color:#000000;
+            border-radius:0;
+            margin-top:0;
+            margin-left:0;
+            margin-bottom:0;
+            margin-right:0;
+            padding-top:0;
+            padding-left:0;
+            padding-bottom:0;
+            padding-right:0;
+            }
+      tfoot {
+            font-size:90%;
+            font-style:normal;
+            font-weight:bold;
+            text-align:left;
+            border-top-style:solid;
+            border-top-width:1;
+            border-top-color:#000000;
+            border-radius:0;
+            margin-top:0;
+            margin-left:0;
+            margin-bottom:0;
+            margin-right:0;
+            padding-top:0;
+            padding-left:0;
+            padding-bottom:0;
+            padding-right:0;
+            }
+      thead {
+            font-size:110%;
+            font-style:normal;
+            font-weight:bold;
+            text-align:left;
+            border-top-style:solid;
+            border-top-width:1;
+            border-top-color:#000000;
+            border-bottom-style:solid;
+            border-bottom-width:2;
+            border-bottom-color:#000000;
+            border-radius:0;
+            margin-top:0;
+            margin-left:0;
+            margin-bottom:0;
+            margin-right:0;
+            padding-top:0;
+            padding-left:0;
+            padding-bottom:0;
+            padding-right:0;
+            }
+</style>
+</head>
+<BODY>
+<H1>Hydrostatics</H1>
+<br>  Relative water density : 1,0250  <br><br>
+<CENTER>
+<H2>Trim: 0,000 (m)</H2>
+<TABLE WIDTH="100%" CELLSPACING="0">
+<THEAD>
+<TR>
+<TD ALIGN="right"><b>Draft</b></TD>
+<TD ALIGN="right"><b>Displ FW</b></TD>
+<TD ALIGN="right"><b>Displ.</b></TD>
+<TD ALIGN="right"><b>LCB</b></TD>
+<TD ALIGN="right"><b>VCB</b></TD>
+<TD ALIGN="right"><b>TCB</b></TD>
+<TD ALIGN="right"><b>KMt</b></TD>
+<TD ALIGN="right"><b>KMl</b></TD>
+<TD ALIGN="right"><b>MCT</b></TD>
+<TD ALIGN="right"><b>TpCm</b></TD>
+</TR>
+<TR CLASS="DS_Table_Units">
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(tonnes)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(tonnes)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(m)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(t*m/cm)</TD>
+<TD CLASS="DS_Table_Units" ALIGN="right" style="text-align : right;">(t/cm)</TD>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD ALIGN="right"><b>0,000</b></TD>
+<TD ALIGN="right">0,0</TD>
+<TD ALIGN="right">0,0</TD>
+<TD ALIGN="right">42,923</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13008328,388</TD>
+<TD ALIGN="right">140647369,96</TD>
+<TD ALIGN="right">7,321</TD>
+<TD ALIGN="right">4,632</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,100</b></TD>
+<TD ALIGN="right">50,6</TD>
+<TD ALIGN="right">51,9</TD>
+<TD ALIGN="right">42,812</TD>
+<TD ALIGN="right">0,050</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">120,535</TD>
+<TD ALIGN="right">1642,88</TD>
+<TD ALIGN="right">10,269</TD>
+<TD ALIGN="right">5,273</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,200</b></TD>
+<TD ALIGN="right">102,9</TD>
+<TD ALIGN="right">105,5</TD>
+<TD ALIGN="right">42,740</TD>
+<TD ALIGN="right">0,101</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">66,501</TD>
+<TD ALIGN="right">822,52</TD>
+<TD ALIGN="right">10,449</TD>
+<TD ALIGN="right">5,448</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,300</b></TD>
+<TD ALIGN="right">157,0</TD>
+<TD ALIGN="right">160,9</TD>
+<TD ALIGN="right">42,650</TD>
+<TD ALIGN="right">0,152</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">49,357</TD>
+<TD ALIGN="right">550,47</TD>
+<TD ALIGN="right">10,668</TD>
+<TD ALIGN="right">5,647</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,400</b></TD>
+<TD ALIGN="right">213,1</TD>
+<TD ALIGN="right">218,4</TD>
+<TD ALIGN="right">42,550</TD>
+<TD ALIGN="right">0,205</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">41,193</TD>
+<TD ALIGN="right">415,25</TD>
+<TD ALIGN="right">10,922</TD>
+<TD ALIGN="right">5,859</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,500</b></TD>
+<TD ALIGN="right">271,3</TD>
+<TD ALIGN="right">278,1</TD>
+<TD ALIGN="right">42,444</TD>
+<TD ALIGN="right">0,257</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">36,515</TD>
+<TD ALIGN="right">334,70</TD>
+<TD ALIGN="right">11,205</TD>
+<TD ALIGN="right">6,079</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,600</b></TD>
+<TD ALIGN="right">331,7</TD>
+<TD ALIGN="right">340,0</TD>
+<TD ALIGN="right">42,337</TD>
+<TD ALIGN="right">0,311</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">33,497</TD>
+<TD ALIGN="right">279,56</TD>
+<TD ALIGN="right">11,438</TD>
+<TD ALIGN="right">6,292</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,700</b></TD>
+<TD ALIGN="right">393,6</TD>
+<TD ALIGN="right">403,5</TD>
+<TD ALIGN="right">42,195</TD>
+<TD ALIGN="right">0,364</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">31,318</TD>
+<TD ALIGN="right">229,76</TD>
+<TD ALIGN="right">11,151</TD>
+<TD ALIGN="right">6,434</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,800</b></TD>
+<TD ALIGN="right">457,3</TD>
+<TD ALIGN="right">468,7</TD>
+<TD ALIGN="right">42,043</TD>
+<TD ALIGN="right">0,418</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">29,748</TD>
+<TD ALIGN="right">199,32</TD>
+<TD ALIGN="right">11,232</TD>
+<TD ALIGN="right">6,619</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>0,900</b></TD>
+<TD ALIGN="right">522,7</TD>
+<TD ALIGN="right">535,8</TD>
+<TD ALIGN="right">41,893</TD>
+<TD ALIGN="right">0,472</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">28,484</TD>
+<TD ALIGN="right">177,11</TD>
+<TD ALIGN="right">11,402</TD>
+<TD ALIGN="right">6,809</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,000</b></TD>
+<TD ALIGN="right">590,1</TD>
+<TD ALIGN="right">604,8</TD>
+<TD ALIGN="right">41,754</TD>
+<TD ALIGN="right">0,527</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">27,486</TD>
+<TD ALIGN="right">160,74</TD>
+<TD ALIGN="right">11,675</TD>
+<TD ALIGN="right">7,007</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,100</b></TD>
+<TD ALIGN="right">659,4</TD>
+<TD ALIGN="right">675,9</TD>
+<TD ALIGN="right">41,626</TD>
+<TD ALIGN="right">0,582</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">26,633</TD>
+<TD ALIGN="right">147,62</TD>
+<TD ALIGN="right">11,974</TD>
+<TD ALIGN="right">7,203</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,200</b></TD>
+<TD ALIGN="right">730,6</TD>
+<TD ALIGN="right">748,8</TD>
+<TD ALIGN="right">41,508</TD>
+<TD ALIGN="right">0,637</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">25,943</TD>
+<TD ALIGN="right">137,19</TD>
+<TD ALIGN="right">12,320</TD>
+<TD ALIGN="right">7,402</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,300</b></TD>
+<TD ALIGN="right">803,8</TD>
+<TD ALIGN="right">823,8</TD>
+<TD ALIGN="right">41,401</TD>
+<TD ALIGN="right">0,693</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">25,314</TD>
+<TD ALIGN="right">129,16</TD>
+<TD ALIGN="right">12,751</TD>
+<TD ALIGN="right">7,605</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,400</b></TD>
+<TD ALIGN="right">878,9</TD>
+<TD ALIGN="right">900,9</TD>
+<TD ALIGN="right">41,305</TD>
+<TD ALIGN="right">0,749</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">24,789</TD>
+<TD ALIGN="right">122,57</TD>
+<TD ALIGN="right">13,223</TD>
+<TD ALIGN="right">7,810</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,500</b></TD>
+<TD ALIGN="right">956,1</TD>
+<TD ALIGN="right">980,0</TD>
+<TD ALIGN="right">41,220</TD>
+<TD ALIGN="right">0,806</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">24,291</TD>
+<TD ALIGN="right">117,11</TD>
+<TD ALIGN="right">13,732</TD>
+<TD ALIGN="right">8,013</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,600</b></TD>
+<TD ALIGN="right">1035,2</TD>
+<TD ALIGN="right">1061,1</TD>
+<TD ALIGN="right">41,144</TD>
+<TD ALIGN="right">0,863</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">23,841</TD>
+<TD ALIGN="right">112,82</TD>
+<TD ALIGN="right">14,313</TD>
+<TD ALIGN="right">8,221</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,700</b></TD>
+<TD ALIGN="right">1116,4</TD>
+<TD ALIGN="right">1144,3</TD>
+<TD ALIGN="right">41,079</TD>
+<TD ALIGN="right">0,920</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">23,399</TD>
+<TD ALIGN="right">109,45</TD>
+<TD ALIGN="right">14,963</TD>
+<TD ALIGN="right">8,429</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,800</b></TD>
+<TD ALIGN="right">1199,6</TD>
+<TD ALIGN="right">1229,6</TD>
+<TD ALIGN="right">41,022</TD>
+<TD ALIGN="right">0,977</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">22,975</TD>
+<TD ALIGN="right">106,66</TD>
+<TD ALIGN="right">15,657</TD>
+<TD ALIGN="right">8,637</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>1,900</b></TD>
+<TD ALIGN="right">1284,9</TD>
+<TD ALIGN="right">1317,0</TD>
+<TD ALIGN="right">40,974</TD>
+<TD ALIGN="right">1,035</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">22,551</TD>
+<TD ALIGN="right">104,41</TD>
+<TD ALIGN="right">16,403</TD>
+<TD ALIGN="right">8,844</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,000</b></TD>
+<TD ALIGN="right">1372,2</TD>
+<TD ALIGN="right">1406,5</TD>
+<TD ALIGN="right">40,934</TD>
+<TD ALIGN="right">1,094</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">22,146</TD>
+<TD ALIGN="right">102,80</TD>
+<TD ALIGN="right">17,235</TD>
+<TD ALIGN="right">9,055</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,100</b></TD>
+<TD ALIGN="right">1461,5</TD>
+<TD ALIGN="right">1498,1</TD>
+<TD ALIGN="right">40,903</TD>
+<TD ALIGN="right">1,152</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">21,739</TD>
+<TD ALIGN="right">101,71</TD>
+<TD ALIGN="right">18,149</TD>
+<TD ALIGN="right">9,269</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,200</b></TD>
+<TD ALIGN="right">1553,0</TD>
+<TD ALIGN="right">1591,8</TD>
+<TD ALIGN="right">40,879</TD>
+<TD ALIGN="right">1,211</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">21,341</TD>
+<TD ALIGN="right">100,87</TD>
+<TD ALIGN="right">19,113</TD>
+<TD ALIGN="right">9,483</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,300</b></TD>
+<TD ALIGN="right">1646,5</TD>
+<TD ALIGN="right">1687,7</TD>
+<TD ALIGN="right">40,862</TD>
+<TD ALIGN="right">1,270</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">20,952</TD>
+<TD ALIGN="right">100,65</TD>
+<TD ALIGN="right">20,208</TD>
+<TD ALIGN="right">9,705</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,400</b></TD>
+<TD ALIGN="right">1742,3</TD>
+<TD ALIGN="right">1785,9</TD>
+<TD ALIGN="right">40,854</TD>
+<TD ALIGN="right">1,329</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">20,572</TD>
+<TD ALIGN="right">100,94</TD>
+<TD ALIGN="right">21,432</TD>
+<TD ALIGN="right">9,936</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,500</b></TD>
+<TD ALIGN="right">1840,4</TD>
+<TD ALIGN="right">1886,4</TD>
+<TD ALIGN="right">40,854</TD>
+<TD ALIGN="right">1,389</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">20,197</TD>
+<TD ALIGN="right">102,78</TD>
+<TD ALIGN="right">23,045</TD>
+<TD ALIGN="right">10,206</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,600</b></TD>
+<TD ALIGN="right">1941,1</TD>
+<TD ALIGN="right">1989,6</TD>
+<TD ALIGN="right">40,866</TD>
+<TD ALIGN="right">1,449</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">19,828</TD>
+<TD ALIGN="right">102,65</TD>
+<TD ALIGN="right">24,259</TD>
+<TD ALIGN="right">10,423</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,700</b></TD>
+<TD ALIGN="right">2043,7</TD>
+<TD ALIGN="right">2094,8</TD>
+<TD ALIGN="right">40,878</TD>
+<TD ALIGN="right">1,510</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">19,476</TD>
+<TD ALIGN="right">102,02</TD>
+<TD ALIGN="right">25,366</TD>
+<TD ALIGN="right">10,620</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,800</b></TD>
+<TD ALIGN="right">2148,2</TD>
+<TD ALIGN="right">2201,9</TD>
+<TD ALIGN="right">40,892</TD>
+<TD ALIGN="right">1,570</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">19,135</TD>
+<TD ALIGN="right">101,47</TD>
+<TD ALIGN="right">26,502</TD>
+<TD ALIGN="right">10,815</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>2,900</b></TD>
+<TD ALIGN="right">2254,6</TD>
+<TD ALIGN="right">2311,0</TD>
+<TD ALIGN="right">40,906</TD>
+<TD ALIGN="right">1,630</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">18,803</TD>
+<TD ALIGN="right">101,08</TD>
+<TD ALIGN="right">27,689</TD>
+<TD ALIGN="right">11,007</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,000</b></TD>
+<TD ALIGN="right">2362,9</TD>
+<TD ALIGN="right">2422,0</TD>
+<TD ALIGN="right">40,921</TD>
+<TD ALIGN="right">1,691</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">18,490</TD>
+<TD ALIGN="right">100,81</TD>
+<TD ALIGN="right">28,923</TD>
+<TD ALIGN="right">11,200</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,100</b></TD>
+<TD ALIGN="right">2473,1</TD>
+<TD ALIGN="right">2534,9</TD>
+<TD ALIGN="right">40,936</TD>
+<TD ALIGN="right">1,751</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">18,188</TD>
+<TD ALIGN="right">100,60</TD>
+<TD ALIGN="right">30,190</TD>
+<TD ALIGN="right">11,390</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,200</b></TD>
+<TD ALIGN="right">2585,1</TD>
+<TD ALIGN="right">2649,7</TD>
+<TD ALIGN="right">40,950</TD>
+<TD ALIGN="right">1,812</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">17,905</TD>
+<TD ALIGN="right">100,51</TD>
+<TD ALIGN="right">31,507</TD>
+<TD ALIGN="right">11,580</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,300</b></TD>
+<TD ALIGN="right">2699,0</TD>
+<TD ALIGN="right">2766,5</TD>
+<TD ALIGN="right">40,964</TD>
+<TD ALIGN="right">1,873</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">17,632</TD>
+<TD ALIGN="right">100,45</TD>
+<TD ALIGN="right">32,857</TD>
+<TD ALIGN="right">11,768</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,400</b></TD>
+<TD ALIGN="right">2814,7</TD>
+<TD ALIGN="right">2885,0</TD>
+<TD ALIGN="right">40,978</TD>
+<TD ALIGN="right">1,933</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">17,372</TD>
+<TD ALIGN="right">100,45</TD>
+<TD ALIGN="right">34,245</TD>
+<TD ALIGN="right">11,954</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,500</b></TD>
+<TD ALIGN="right">2932,2</TD>
+<TD ALIGN="right">3005,5</TD>
+<TD ALIGN="right">40,991</TD>
+<TD ALIGN="right">1,994</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">17,124</TD>
+<TD ALIGN="right">100,51</TD>
+<TD ALIGN="right">35,671</TD>
+<TD ALIGN="right">12,139</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,600</b></TD>
+<TD ALIGN="right">3051,5</TD>
+<TD ALIGN="right">3127,8</TD>
+<TD ALIGN="right">41,003</TD>
+<TD ALIGN="right">2,055</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">16,885</TD>
+<TD ALIGN="right">100,61</TD>
+<TD ALIGN="right">37,139</TD>
+<TD ALIGN="right">12,322</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,700</b></TD>
+<TD ALIGN="right">3172,5</TD>
+<TD ALIGN="right">3251,9</TD>
+<TD ALIGN="right">41,014</TD>
+<TD ALIGN="right">2,116</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">16,659</TD>
+<TD ALIGN="right">100,71</TD>
+<TD ALIGN="right">38,627</TD>
+<TD ALIGN="right">12,503</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,800</b></TD>
+<TD ALIGN="right">3295,4</TD>
+<TD ALIGN="right">3377,8</TD>
+<TD ALIGN="right">41,024</TD>
+<TD ALIGN="right">2,177</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">16,441</TD>
+<TD ALIGN="right">100,84</TD>
+<TD ALIGN="right">40,152</TD>
+<TD ALIGN="right">12,683</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>3,900</b></TD>
+<TD ALIGN="right">3420,0</TD>
+<TD ALIGN="right">3505,5</TD>
+<TD ALIGN="right">41,032</TD>
+<TD ALIGN="right">2,238</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">16,231</TD>
+<TD ALIGN="right">101,06</TD>
+<TD ALIGN="right">41,736</TD>
+<TD ALIGN="right">12,862</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,000</b></TD>
+<TD ALIGN="right">3546,3</TD>
+<TD ALIGN="right">3635,0</TD>
+<TD ALIGN="right">41,039</TD>
+<TD ALIGN="right">2,299</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">16,030</TD>
+<TD ALIGN="right">101,35</TD>
+<TD ALIGN="right">43,378</TD>
+<TD ALIGN="right">13,041</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,100</b></TD>
+<TD ALIGN="right">3674,4</TD>
+<TD ALIGN="right">3766,2</TD>
+<TD ALIGN="right">41,045</TD>
+<TD ALIGN="right">2,360</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,841</TD>
+<TD ALIGN="right">101,71</TD>
+<TD ALIGN="right">45,081</TD>
+<TD ALIGN="right">13,222</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,200</b></TD>
+<TD ALIGN="right">3804,2</TD>
+<TD ALIGN="right">3899,4</TD>
+<TD ALIGN="right">41,048</TD>
+<TD ALIGN="right">2,421</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,659</TD>
+<TD ALIGN="right">102,13</TD>
+<TD ALIGN="right">46,843</TD>
+<TD ALIGN="right">13,404</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,300</b></TD>
+<TD ALIGN="right">3935,9</TD>
+<TD ALIGN="right">4034,3</TD>
+<TD ALIGN="right">41,050</TD>
+<TD ALIGN="right">2,482</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,493</TD>
+<TD ALIGN="right">102,68</TD>
+<TD ALIGN="right">48,704</TD>
+<TD ALIGN="right">13,590</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,400</b></TD>
+<TD ALIGN="right">4069,4</TD>
+<TD ALIGN="right">4171,1</TD>
+<TD ALIGN="right">41,049</TD>
+<TD ALIGN="right">2,543</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,332</TD>
+<TD ALIGN="right">103,39</TD>
+<TD ALIGN="right">50,682</TD>
+<TD ALIGN="right">13,780</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,500</b></TD>
+<TD ALIGN="right">4204,7</TD>
+<TD ALIGN="right">4309,9</TD>
+<TD ALIGN="right">41,044</TD>
+<TD ALIGN="right">2,605</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,187</TD>
+<TD ALIGN="right">104,35</TD>
+<TD ALIGN="right">52,831</TD>
+<TD ALIGN="right">13,980</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,600</b></TD>
+<TD ALIGN="right">4342,2</TD>
+<TD ALIGN="right">4450,7</TD>
+<TD ALIGN="right">41,035</TD>
+<TD ALIGN="right">2,666</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,057</TD>
+<TD ALIGN="right">105,73</TD>
+<TD ALIGN="right">55,268</TD>
+<TD ALIGN="right">14,197</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,700</b></TD>
+<TD ALIGN="right">4481,8</TD>
+<TD ALIGN="right">4593,9</TD>
+<TD ALIGN="right">41,020</TD>
+<TD ALIGN="right">2,728</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,958</TD>
+<TD ALIGN="right">107,91</TD>
+<TD ALIGN="right">58,214</TD>
+<TD ALIGN="right">14,449</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,800</b></TD>
+<TD ALIGN="right">4624,3</TD>
+<TD ALIGN="right">4739,9</TD>
+<TD ALIGN="right">40,995</TD>
+<TD ALIGN="right">2,790</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,940</TD>
+<TD ALIGN="right">112,48</TD>
+<TD ALIGN="right">62,641</TD>
+<TD ALIGN="right">14,800</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>4,900</b></TD>
+<TD ALIGN="right">4771,3</TD>
+<TD ALIGN="right">4890,6</TD>
+<TD ALIGN="right">40,946</TD>
+<TD ALIGN="right">2,854</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,059</TD>
+<TD ALIGN="right">122,06</TD>
+<TD ALIGN="right">70,240</TD>
+<TD ALIGN="right">15,343</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,000</b></TD>
+<TD ALIGN="right">4923,6</TD>
+<TD ALIGN="right">5046,7</TD>
+<TD ALIGN="right">40,869</TD>
+<TD ALIGN="right">2,919</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,079</TD>
+<TD ALIGN="right">132,41</TD>
+<TD ALIGN="right">78,738</TD>
+<TD ALIGN="right">15,919</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,100</b></TD>
+<TD ALIGN="right">5081,2</TD>
+<TD ALIGN="right">5208,2</TD>
+<TD ALIGN="right">40,765</TD>
+<TD ALIGN="right">2,985</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">15,014</TD>
+<TD ALIGN="right">138,42</TD>
+<TD ALIGN="right">84,984</TD>
+<TD ALIGN="right">16,325</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,200</b></TD>
+<TD ALIGN="right">5241,6</TD>
+<TD ALIGN="right">5372,6</TD>
+<TD ALIGN="right">40,654</TD>
+<TD ALIGN="right">3,051</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,913</TD>
+<TD ALIGN="right">139,68</TD>
+<TD ALIGN="right">88,443</TD>
+<TD ALIGN="right">16,555</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,300</b></TD>
+<TD ALIGN="right">5404,0</TD>
+<TD ALIGN="right">5539,1</TD>
+<TD ALIGN="right">40,542</TD>
+<TD ALIGN="right">3,117</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,800</TD>
+<TD ALIGN="right">139,93</TD>
+<TD ALIGN="right">91,306</TD>
+<TD ALIGN="right">16,746</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,400</b></TD>
+<TD ALIGN="right">5568,2</TD>
+<TD ALIGN="right">5707,4</TD>
+<TD ALIGN="right">40,431</TD>
+<TD ALIGN="right">3,183</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,682</TD>
+<TD ALIGN="right">139,75</TD>
+<TD ALIGN="right">93,906</TD>
+<TD ALIGN="right">16,917</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,500</b></TD>
+<TD ALIGN="right">5734,0</TD>
+<TD ALIGN="right">5877,3</TD>
+<TD ALIGN="right">40,323</TD>
+<TD ALIGN="right">3,249</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,560</TD>
+<TD ALIGN="right">139,29</TD>
+<TD ALIGN="right">96,331</TD>
+<TD ALIGN="right">17,075</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,600</b></TD>
+<TD ALIGN="right">5901,3</TD>
+<TD ALIGN="right">6048,8</TD>
+<TD ALIGN="right">40,216</TD>
+<TD ALIGN="right">3,314</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,438</TD>
+<TD ALIGN="right">138,66</TD>
+<TD ALIGN="right">98,633</TD>
+<TD ALIGN="right">17,222</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,700</b></TD>
+<TD ALIGN="right">6069,9</TD>
+<TD ALIGN="right">6221,7</TD>
+<TD ALIGN="right">40,112</TD>
+<TD ALIGN="right">3,379</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,316</TD>
+<TD ALIGN="right">137,91</TD>
+<TD ALIGN="right">100,85</TD>
+<TD ALIGN="right">17,362</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,800</b></TD>
+<TD ALIGN="right">6240,0</TD>
+<TD ALIGN="right">6396,0</TD>
+<TD ALIGN="right">40,012</TD>
+<TD ALIGN="right">3,443</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,196</TD>
+<TD ALIGN="right">137,04</TD>
+<TD ALIGN="right">102,95</TD>
+<TD ALIGN="right">17,493</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>5,900</b></TD>
+<TD ALIGN="right">6411,2</TD>
+<TD ALIGN="right">6571,5</TD>
+<TD ALIGN="right">39,914</TD>
+<TD ALIGN="right">3,508</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">14,081</TD>
+<TD ALIGN="right">136,14</TD>
+<TD ALIGN="right">105,01</TD>
+<TD ALIGN="right">17,620</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,000</b></TD>
+<TD ALIGN="right">6583,7</TD>
+<TD ALIGN="right">6748,3</TD>
+<TD ALIGN="right">39,819</TD>
+<TD ALIGN="right">3,572</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,965</TD>
+<TD ALIGN="right">135,15</TD>
+<TD ALIGN="right">106,98</TD>
+<TD ALIGN="right">17,740</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,100</b></TD>
+<TD ALIGN="right">6757,3</TD>
+<TD ALIGN="right">6926,2</TD>
+<TD ALIGN="right">39,727</TD>
+<TD ALIGN="right">3,635</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,851</TD>
+<TD ALIGN="right">134,12</TD>
+<TD ALIGN="right">108,89</TD>
+<TD ALIGN="right">17,853</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,200</b></TD>
+<TD ALIGN="right">6932,0</TD>
+<TD ALIGN="right">7105,3</TD>
+<TD ALIGN="right">39,637</TD>
+<TD ALIGN="right">3,699</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,748</TD>
+<TD ALIGN="right">133,07</TD>
+<TD ALIGN="right">110,75</TD>
+<TD ALIGN="right">17,966</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,300</b></TD>
+<TD ALIGN="right">7107,7</TD>
+<TD ALIGN="right">7285,4</TD>
+<TD ALIGN="right">39,551</TD>
+<TD ALIGN="right">3,762</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,639</TD>
+<TD ALIGN="right">132,01</TD>
+<TD ALIGN="right">112,57</TD>
+<TD ALIGN="right">18,070</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,400</b></TD>
+<TD ALIGN="right">7284,5</TD>
+<TD ALIGN="right">7466,6</TD>
+<TD ALIGN="right">39,468</TD>
+<TD ALIGN="right">3,825</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,534</TD>
+<TD ALIGN="right">130,93</TD>
+<TD ALIGN="right">114,34</TD>
+<TD ALIGN="right">18,172</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,500</b></TD>
+<TD ALIGN="right">7462,2</TD>
+<TD ALIGN="right">7648,7</TD>
+<TD ALIGN="right">39,388</TD>
+<TD ALIGN="right">3,887</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,428</TD>
+<TD ALIGN="right">129,79</TD>
+<TD ALIGN="right">116,03</TD>
+<TD ALIGN="right">18,265</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,600</b></TD>
+<TD ALIGN="right">7640,8</TD>
+<TD ALIGN="right">7831,8</TD>
+<TD ALIGN="right">39,310</TD>
+<TD ALIGN="right">3,949</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,324</TD>
+<TD ALIGN="right">128,69</TD>
+<TD ALIGN="right">117,70</TD>
+<TD ALIGN="right">18,355</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,700</b></TD>
+<TD ALIGN="right">7820,3</TD>
+<TD ALIGN="right">8015,8</TD>
+<TD ALIGN="right">39,235</TD>
+<TD ALIGN="right">4,011</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,234</TD>
+<TD ALIGN="right">127,60</TD>
+<TD ALIGN="right">119,36</TD>
+<TD ALIGN="right">18,449</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,800</b></TD>
+<TD ALIGN="right">8000,7</TD>
+<TD ALIGN="right">8200,7</TD>
+<TD ALIGN="right">39,162</TD>
+<TD ALIGN="right">4,073</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,139</TD>
+<TD ALIGN="right">126,46</TD>
+<TD ALIGN="right">120,93</TD>
+<TD ALIGN="right">18,533</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>6,900</b></TD>
+<TD ALIGN="right">8181,9</TD>
+<TD ALIGN="right">8386,4</TD>
+<TD ALIGN="right">39,092</TD>
+<TD ALIGN="right">4,135</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">13,051</TD>
+<TD ALIGN="right">125,37</TD>
+<TD ALIGN="right">122,50</TD>
+<TD ALIGN="right">18,618</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,000</b></TD>
+<TD ALIGN="right">8363,8</TD>
+<TD ALIGN="right">8572,9</TD>
+<TD ALIGN="right">39,025</TD>
+<TD ALIGN="right">4,196</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,961</TD>
+<TD ALIGN="right">124,28</TD>
+<TD ALIGN="right">124,03</TD>
+<TD ALIGN="right">18,697</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,100</b></TD>
+<TD ALIGN="right">8546,6</TD>
+<TD ALIGN="right">8760,3</TD>
+<TD ALIGN="right">38,960</TD>
+<TD ALIGN="right">4,257</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,875</TD>
+<TD ALIGN="right">123,16</TD>
+<TD ALIGN="right">125,50</TD>
+<TD ALIGN="right">18,772</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,200</b></TD>
+<TD ALIGN="right">8730,1</TD>
+<TD ALIGN="right">8948,3</TD>
+<TD ALIGN="right">38,897</TD>
+<TD ALIGN="right">4,318</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,795</TD>
+<TD ALIGN="right">122,09</TD>
+<TD ALIGN="right">126,97</TD>
+<TD ALIGN="right">18,848</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,300</b></TD>
+<TD ALIGN="right">8914,3</TD>
+<TD ALIGN="right">9137,2</TD>
+<TD ALIGN="right">38,836</TD>
+<TD ALIGN="right">4,378</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,718</TD>
+<TD ALIGN="right">121,02</TD>
+<TD ALIGN="right">128,41</TD>
+<TD ALIGN="right">18,922</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,400</b></TD>
+<TD ALIGN="right">9099,3</TD>
+<TD ALIGN="right">9326,7</TD>
+<TD ALIGN="right">38,778</TD>
+<TD ALIGN="right">4,439</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,645</TD>
+<TD ALIGN="right">119,97</TD>
+<TD ALIGN="right">129,83</TD>
+<TD ALIGN="right">18,994</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,500</b></TD>
+<TD ALIGN="right">9284,9</TD>
+<TD ALIGN="right">9517,0</TD>
+<TD ALIGN="right">38,721</TD>
+<TD ALIGN="right">4,499</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,577</TD>
+<TD ALIGN="right">118,96</TD>
+<TD ALIGN="right">131,24</TD>
+<TD ALIGN="right">19,066</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,600</b></TD>
+<TD ALIGN="right">9471,2</TD>
+<TD ALIGN="right">9708,0</TD>
+<TD ALIGN="right">38,666</TD>
+<TD ALIGN="right">4,559</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,504</TD>
+<TD ALIGN="right">117,95</TD>
+<TD ALIGN="right">132,62</TD>
+<TD ALIGN="right">19,131</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,700</b></TD>
+<TD ALIGN="right">9658,1</TD>
+<TD ALIGN="right">9899,6</TD>
+<TD ALIGN="right">38,613</TD>
+<TD ALIGN="right">4,619</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,444</TD>
+<TD ALIGN="right">116,97</TD>
+<TD ALIGN="right">134,00</TD>
+<TD ALIGN="right">19,201</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,800</b></TD>
+<TD ALIGN="right">9845,8</TD>
+<TD ALIGN="right">10091,9</TD>
+<TD ALIGN="right">38,562</TD>
+<TD ALIGN="right">4,678</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,383</TD>
+<TD ALIGN="right">116,01</TD>
+<TD ALIGN="right">135,37</TD>
+<TD ALIGN="right">19,267</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>7,900</b></TD>
+<TD ALIGN="right">10034,0</TD>
+<TD ALIGN="right">10284,9</TD>
+<TD ALIGN="right">38,512</TD>
+<TD ALIGN="right">4,738</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,323</TD>
+<TD ALIGN="right">115,06</TD>
+<TD ALIGN="right">136,71</TD>
+<TD ALIGN="right">19,329</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,000</b></TD>
+<TD ALIGN="right">10222,9</TD>
+<TD ALIGN="right">10478,4</TD>
+<TD ALIGN="right">38,464</TD>
+<TD ALIGN="right">4,797</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,267</TD>
+<TD ALIGN="right">114,06</TD>
+<TD ALIGN="right">137,93</TD>
+<TD ALIGN="right">19,388</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,100</b></TD>
+<TD ALIGN="right">10412,3</TD>
+<TD ALIGN="right">10672,6</TD>
+<TD ALIGN="right">38,417</TD>
+<TD ALIGN="right">4,856</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,216</TD>
+<TD ALIGN="right">112,96</TD>
+<TD ALIGN="right">139,01</TD>
+<TD ALIGN="right">19,441</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,200</b></TD>
+<TD ALIGN="right">10602,2</TD>
+<TD ALIGN="right">10867,2</TD>
+<TD ALIGN="right">38,373</TD>
+<TD ALIGN="right">4,915</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,166</TD>
+<TD ALIGN="right">111,85</TD>
+<TD ALIGN="right">140,01</TD>
+<TD ALIGN="right">19,488</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,300</b></TD>
+<TD ALIGN="right">10792,5</TD>
+<TD ALIGN="right">11062,3</TD>
+<TD ALIGN="right">38,331</TD>
+<TD ALIGN="right">4,974</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,117</TD>
+<TD ALIGN="right">110,71</TD>
+<TD ALIGN="right">140,92</TD>
+<TD ALIGN="right">19,531</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,400</b></TD>
+<TD ALIGN="right">10983,2</TD>
+<TD ALIGN="right">11257,8</TD>
+<TD ALIGN="right">38,290</TD>
+<TD ALIGN="right">5,033</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,071</TD>
+<TD ALIGN="right">109,56</TD>
+<TD ALIGN="right">141,78</TD>
+<TD ALIGN="right">19,572</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,500</b></TD>
+<TD ALIGN="right">11174,4</TD>
+<TD ALIGN="right">11453,7</TD>
+<TD ALIGN="right">38,252</TD>
+<TD ALIGN="right">5,091</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">12,029</TD>
+<TD ALIGN="right">108,43</TD>
+<TD ALIGN="right">142,60</TD>
+<TD ALIGN="right">19,612</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,600</b></TD>
+<TD ALIGN="right">11365,9</TD>
+<TD ALIGN="right">11650,0</TD>
+<TD ALIGN="right">38,215</TD>
+<TD ALIGN="right">5,150</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,987</TD>
+<TD ALIGN="right">107,31</TD>
+<TD ALIGN="right">143,40</TD>
+<TD ALIGN="right">19,649</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,700</b></TD>
+<TD ALIGN="right">11557,7</TD>
+<TD ALIGN="right">11846,7</TD>
+<TD ALIGN="right">38,180</TD>
+<TD ALIGN="right">5,208</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,947</TD>
+<TD ALIGN="right">106,22</TD>
+<TD ALIGN="right">144,18</TD>
+<TD ALIGN="right">19,686</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,800</b></TD>
+<TD ALIGN="right">11749,9</TD>
+<TD ALIGN="right">12043,7</TD>
+<TD ALIGN="right">38,147</TD>
+<TD ALIGN="right">5,266</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,909</TD>
+<TD ALIGN="right">105,15</TD>
+<TD ALIGN="right">144,93</TD>
+<TD ALIGN="right">19,720</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>8,900</b></TD>
+<TD ALIGN="right">11942,5</TD>
+<TD ALIGN="right">12241,0</TD>
+<TD ALIGN="right">38,116</TD>
+<TD ALIGN="right">5,323</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,873</TD>
+<TD ALIGN="right">104,08</TD>
+<TD ALIGN="right">145,64</TD>
+<TD ALIGN="right">19,753</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,000</b></TD>
+<TD ALIGN="right">12135,3</TD>
+<TD ALIGN="right">12438,7</TD>
+<TD ALIGN="right">38,087</TD>
+<TD ALIGN="right">5,381</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,838</TD>
+<TD ALIGN="right">103,03</TD>
+<TD ALIGN="right">146,34</TD>
+<TD ALIGN="right">19,784</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,100</b></TD>
+<TD ALIGN="right">12328,5</TD>
+<TD ALIGN="right">12636,7</TD>
+<TD ALIGN="right">38,059</TD>
+<TD ALIGN="right">5,439</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,807</TD>
+<TD ALIGN="right">102,01</TD>
+<TD ALIGN="right">147,03</TD>
+<TD ALIGN="right">19,816</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,200</b></TD>
+<TD ALIGN="right">12521,9</TD>
+<TD ALIGN="right">12835,0</TD>
+<TD ALIGN="right">38,033</TD>
+<TD ALIGN="right">5,496</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,778</TD>
+<TD ALIGN="right">101,02</TD>
+<TD ALIGN="right">147,72</TD>
+<TD ALIGN="right">19,848</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,300</b></TD>
+<TD ALIGN="right">12715,7</TD>
+<TD ALIGN="right">13033,6</TD>
+<TD ALIGN="right">38,009</TD>
+<TD ALIGN="right">5,553</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,749</TD>
+<TD ALIGN="right">100,05</TD>
+<TD ALIGN="right">148,38</TD>
+<TD ALIGN="right">19,878</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,400</b></TD>
+<TD ALIGN="right">12909,8</TD>
+<TD ALIGN="right">13232,5</TD>
+<TD ALIGN="right">37,986</TD>
+<TD ALIGN="right">5,610</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,723</TD>
+<TD ALIGN="right">99,10</TD>
+<TD ALIGN="right">149,04</TD>
+<TD ALIGN="right">19,908</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,500</b></TD>
+<TD ALIGN="right">13104,1</TD>
+<TD ALIGN="right">13431,7</TD>
+<TD ALIGN="right">37,964</TD>
+<TD ALIGN="right">5,667</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,699</TD>
+<TD ALIGN="right">98,16</TD>
+<TD ALIGN="right">149,68</TD>
+<TD ALIGN="right">19,937</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,600</b></TD>
+<TD ALIGN="right">13298,8</TD>
+<TD ALIGN="right">13631,2</TD>
+<TD ALIGN="right">37,944</TD>
+<TD ALIGN="right">5,724</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,677</TD>
+<TD ALIGN="right">97,26</TD>
+<TD ALIGN="right">150,34</TD>
+<TD ALIGN="right">19,966</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,700</b></TD>
+<TD ALIGN="right">13493,7</TD>
+<TD ALIGN="right">13831,0</TD>
+<TD ALIGN="right">37,925</TD>
+<TD ALIGN="right">5,781</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,656</TD>
+<TD ALIGN="right">96,39</TD>
+<TD ALIGN="right">150,98</TD>
+<TD ALIGN="right">19,995</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,800</b></TD>
+<TD ALIGN="right">13688,9</TD>
+<TD ALIGN="right">14031,1</TD>
+<TD ALIGN="right">37,908</TD>
+<TD ALIGN="right">5,837</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,638</TD>
+<TD ALIGN="right">95,54</TD>
+<TD ALIGN="right">151,64</TD>
+<TD ALIGN="right">20,024</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>9,900</b></TD>
+<TD ALIGN="right">13884,4</TD>
+<TD ALIGN="right">14231,5</TD>
+<TD ALIGN="right">37,892</TD>
+<TD ALIGN="right">5,894</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,621</TD>
+<TD ALIGN="right">94,73</TD>
+<TD ALIGN="right">152,32</TD>
+<TD ALIGN="right">20,054</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,000</b></TD>
+<TD ALIGN="right">14080,2</TD>
+<TD ALIGN="right">14432,2</TD>
+<TD ALIGN="right">37,877</TD>
+<TD ALIGN="right">5,950</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,606</TD>
+<TD ALIGN="right">93,91</TD>
+<TD ALIGN="right">152,95</TD>
+<TD ALIGN="right">20,082</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,100</b></TD>
+<TD ALIGN="right">14276,2</TD>
+<TD ALIGN="right">14633,1</TD>
+<TD ALIGN="right">37,863</TD>
+<TD ALIGN="right">6,006</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,592</TD>
+<TD ALIGN="right">93,11</TD>
+<TD ALIGN="right">153,56</TD>
+<TD ALIGN="right">20,109</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,200</b></TD>
+<TD ALIGN="right">14472,5</TD>
+<TD ALIGN="right">14834,4</TD>
+<TD ALIGN="right">37,851</TD>
+<TD ALIGN="right">6,063</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,581</TD>
+<TD ALIGN="right">92,38</TD>
+<TD ALIGN="right">154,28</TD>
+<TD ALIGN="right">20,140</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,300</b></TD>
+<TD ALIGN="right">14669,1</TD>
+<TD ALIGN="right">15035,9</TD>
+<TD ALIGN="right">37,839</TD>
+<TD ALIGN="right">6,119</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,571</TD>
+<TD ALIGN="right">91,64</TD>
+<TD ALIGN="right">154,92</TD>
+<TD ALIGN="right">20,168</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,400</b></TD>
+<TD ALIGN="right">14866,0</TD>
+<TD ALIGN="right">15237,7</TD>
+<TD ALIGN="right">37,829</TD>
+<TD ALIGN="right">6,175</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,562</TD>
+<TD ALIGN="right">90,92</TD>
+<TD ALIGN="right">155,58</TD>
+<TD ALIGN="right">20,197</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,500</b></TD>
+<TD ALIGN="right">15063,2</TD>
+<TD ALIGN="right">15439,8</TD>
+<TD ALIGN="right">37,820</TD>
+<TD ALIGN="right">6,231</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,555</TD>
+<TD ALIGN="right">90,22</TD>
+<TD ALIGN="right">156,25</TD>
+<TD ALIGN="right">20,226</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,600</b></TD>
+<TD ALIGN="right">15260,6</TD>
+<TD ALIGN="right">15642,1</TD>
+<TD ALIGN="right">37,812</TD>
+<TD ALIGN="right">6,287</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,549</TD>
+<TD ALIGN="right">89,54</TD>
+<TD ALIGN="right">156,90</TD>
+<TD ALIGN="right">20,254</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,700</b></TD>
+<TD ALIGN="right">15458,3</TD>
+<TD ALIGN="right">15844,8</TD>
+<TD ALIGN="right">37,804</TD>
+<TD ALIGN="right">6,342</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,544</TD>
+<TD ALIGN="right">88,87</TD>
+<TD ALIGN="right">157,55</TD>
+<TD ALIGN="right">20,282</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,800</b></TD>
+<TD ALIGN="right">15656,3</TD>
+<TD ALIGN="right">16047,7</TD>
+<TD ALIGN="right">37,798</TD>
+<TD ALIGN="right">6,398</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,542</TD>
+<TD ALIGN="right">88,23</TD>
+<TD ALIGN="right">158,23</TD>
+<TD ALIGN="right">20,311</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>10,900</b></TD>
+<TD ALIGN="right">15854,6</TD>
+<TD ALIGN="right">16251,0</TD>
+<TD ALIGN="right">37,793</TD>
+<TD ALIGN="right">6,454</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,540</TD>
+<TD ALIGN="right">87,61</TD>
+<TD ALIGN="right">158,90</TD>
+<TD ALIGN="right">20,340</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,000</b></TD>
+<TD ALIGN="right">16053,2</TD>
+<TD ALIGN="right">16454,5</TD>
+<TD ALIGN="right">37,788</TD>
+<TD ALIGN="right">6,509</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,540</TD>
+<TD ALIGN="right">87,00</TD>
+<TD ALIGN="right">159,57</TD>
+<TD ALIGN="right">20,369</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,100</b></TD>
+<TD ALIGN="right">16252,0</TD>
+<TD ALIGN="right">16658,3</TD>
+<TD ALIGN="right">37,784</TD>
+<TD ALIGN="right">6,565</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,541</TD>
+<TD ALIGN="right">86,41</TD>
+<TD ALIGN="right">160,25</TD>
+<TD ALIGN="right">20,398</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,200</b></TD>
+<TD ALIGN="right">16451,1</TD>
+<TD ALIGN="right">16862,4</TD>
+<TD ALIGN="right">37,782</TD>
+<TD ALIGN="right">6,621</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,544</TD>
+<TD ALIGN="right">85,84</TD>
+<TD ALIGN="right">160,95</TD>
+<TD ALIGN="right">20,429</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,300</b></TD>
+<TD ALIGN="right">16650,6</TD>
+<TD ALIGN="right">17066,8</TD>
+<TD ALIGN="right">37,780</TD>
+<TD ALIGN="right">6,676</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">11,542</TD>
+<TD ALIGN="right">85,24</TD>
+<TD ALIGN="right">161,54</TD>
+<TD ALIGN="right">20,452</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,400</b></TD>
+<TD ALIGN="right">16781,3</TD>
+<TD ALIGN="right">17200,9</TD>
+<TD ALIGN="right">37,866</TD>
+<TD ALIGN="right">6,712</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,842</TD>
+<TD ALIGN="right">16,31</TD>
+<TD ALIGN="right">19,891</TD>
+<TD ALIGN="right">9,932</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,500</b></TD>
+<TD ALIGN="right">16878,4</TD>
+<TD ALIGN="right">17300,3</TD>
+<TD ALIGN="right">37,995</TD>
+<TD ALIGN="right">6,740</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,863</TD>
+<TD ALIGN="right">16,35</TD>
+<TD ALIGN="right">20,022</TD>
+<TD ALIGN="right">9,955</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,600</b></TD>
+<TD ALIGN="right">16975,6</TD>
+<TD ALIGN="right">17400,0</TD>
+<TD ALIGN="right">38,124</TD>
+<TD ALIGN="right">6,767</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,884</TD>
+<TD ALIGN="right">16,38</TD>
+<TD ALIGN="right">20,162</TD>
+<TD ALIGN="right">9,981</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,700</b></TD>
+<TD ALIGN="right">17073,1</TD>
+<TD ALIGN="right">17499,9</TD>
+<TD ALIGN="right">38,251</TD>
+<TD ALIGN="right">6,795</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,906</TD>
+<TD ALIGN="right">16,42</TD>
+<TD ALIGN="right">20,296</TD>
+<TD ALIGN="right">10,005</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,800</b></TD>
+<TD ALIGN="right">17170,8</TD>
+<TD ALIGN="right">17600,1</TD>
+<TD ALIGN="right">38,379</TD>
+<TD ALIGN="right">6,823</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,928</TD>
+<TD ALIGN="right">16,46</TD>
+<TD ALIGN="right">20,431</TD>
+<TD ALIGN="right">10,029</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>11,900</b></TD>
+<TD ALIGN="right">17268,7</TD>
+<TD ALIGN="right">17700,5</TD>
+<TD ALIGN="right">38,505</TD>
+<TD ALIGN="right">6,852</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,951</TD>
+<TD ALIGN="right">16,50</TD>
+<TD ALIGN="right">20,567</TD>
+<TD ALIGN="right">10,053</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,000</b></TD>
+<TD ALIGN="right">17366,9</TD>
+<TD ALIGN="right">17801,1</TD>
+<TD ALIGN="right">38,631</TD>
+<TD ALIGN="right">6,881</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,974</TD>
+<TD ALIGN="right">16,54</TD>
+<TD ALIGN="right">20,715</TD>
+<TD ALIGN="right">10,079</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,100</b></TD>
+<TD ALIGN="right">17465,4</TD>
+<TD ALIGN="right">17902,0</TD>
+<TD ALIGN="right">38,756</TD>
+<TD ALIGN="right">6,910</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,997</TD>
+<TD ALIGN="right">16,58</TD>
+<TD ALIGN="right">20,856</TD>
+<TD ALIGN="right">10,104</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,200</b></TD>
+<TD ALIGN="right">17564,1</TD>
+<TD ALIGN="right">18003,2</TD>
+<TD ALIGN="right">38,880</TD>
+<TD ALIGN="right">6,939</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,021</TD>
+<TD ALIGN="right">16,62</TD>
+<TD ALIGN="right">20,996</TD>
+<TD ALIGN="right">10,129</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,300</b></TD>
+<TD ALIGN="right">17663,0</TD>
+<TD ALIGN="right">18104,6</TD>
+<TD ALIGN="right">39,004</TD>
+<TD ALIGN="right">6,969</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,045</TD>
+<TD ALIGN="right">16,66</TD>
+<TD ALIGN="right">21,145</TD>
+<TD ALIGN="right">10,155</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,400</b></TD>
+<TD ALIGN="right">17762,2</TD>
+<TD ALIGN="right">18206,3</TD>
+<TD ALIGN="right">39,127</TD>
+<TD ALIGN="right">6,999</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,070</TD>
+<TD ALIGN="right">16,71</TD>
+<TD ALIGN="right">21,292</TD>
+<TD ALIGN="right">10,181</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,500</b></TD>
+<TD ALIGN="right">17861,7</TD>
+<TD ALIGN="right">18308,2</TD>
+<TD ALIGN="right">39,250</TD>
+<TD ALIGN="right">7,029</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,095</TD>
+<TD ALIGN="right">16,75</TD>
+<TD ALIGN="right">21,443</TD>
+<TD ALIGN="right">10,208</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,600</b></TD>
+<TD ALIGN="right">17961,4</TD>
+<TD ALIGN="right">18410,4</TD>
+<TD ALIGN="right">39,372</TD>
+<TD ALIGN="right">7,060</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,121</TD>
+<TD ALIGN="right">16,80</TD>
+<TD ALIGN="right">21,594</TD>
+<TD ALIGN="right">10,234</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,700</b></TD>
+<TD ALIGN="right">18061,4</TD>
+<TD ALIGN="right">18512,9</TD>
+<TD ALIGN="right">39,494</TD>
+<TD ALIGN="right">7,091</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,146</TD>
+<TD ALIGN="right">16,84</TD>
+<TD ALIGN="right">21,747</TD>
+<TD ALIGN="right">10,260</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,800</b></TD>
+<TD ALIGN="right">18161,6</TD>
+<TD ALIGN="right">18615,6</TD>
+<TD ALIGN="right">39,615</TD>
+<TD ALIGN="right">7,122</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,173</TD>
+<TD ALIGN="right">16,89</TD>
+<TD ALIGN="right">21,902</TD>
+<TD ALIGN="right">10,287</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>12,900</b></TD>
+<TD ALIGN="right">18262,1</TD>
+<TD ALIGN="right">18718,6</TD>
+<TD ALIGN="right">39,735</TD>
+<TD ALIGN="right">7,154</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,199</TD>
+<TD ALIGN="right">16,94</TD>
+<TD ALIGN="right">22,061</TD>
+<TD ALIGN="right">10,315</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,000</b></TD>
+<TD ALIGN="right">18362,8</TD>
+<TD ALIGN="right">18821,9</TD>
+<TD ALIGN="right">39,855</TD>
+<TD ALIGN="right">7,185</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,227</TD>
+<TD ALIGN="right">16,98</TD>
+<TD ALIGN="right">22,219</TD>
+<TD ALIGN="right">10,342</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,100</b></TD>
+<TD ALIGN="right">18463,9</TD>
+<TD ALIGN="right">18925,5</TD>
+<TD ALIGN="right">39,975</TD>
+<TD ALIGN="right">7,218</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,254</TD>
+<TD ALIGN="right">17,03</TD>
+<TD ALIGN="right">22,377</TD>
+<TD ALIGN="right">10,369</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,200</b></TD>
+<TD ALIGN="right">18565,2</TD>
+<TD ALIGN="right">19029,3</TD>
+<TD ALIGN="right">40,094</TD>
+<TD ALIGN="right">7,250</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,282</TD>
+<TD ALIGN="right">17,08</TD>
+<TD ALIGN="right">22,539</TD>
+<TD ALIGN="right">10,397</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,300</b></TD>
+<TD ALIGN="right">18666,7</TD>
+<TD ALIGN="right">19133,4</TD>
+<TD ALIGN="right">40,212</TD>
+<TD ALIGN="right">7,283</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,310</TD>
+<TD ALIGN="right">17,13</TD>
+<TD ALIGN="right">22,702</TD>
+<TD ALIGN="right">10,424</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,400</b></TD>
+<TD ALIGN="right">18768,5</TD>
+<TD ALIGN="right">19237,7</TD>
+<TD ALIGN="right">40,330</TD>
+<TD ALIGN="right">7,315</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,338</TD>
+<TD ALIGN="right">17,18</TD>
+<TD ALIGN="right">22,864</TD>
+<TD ALIGN="right">10,452</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,500</b></TD>
+<TD ALIGN="right">18870,6</TD>
+<TD ALIGN="right">19342,4</TD>
+<TD ALIGN="right">40,448</TD>
+<TD ALIGN="right">7,349</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,367</TD>
+<TD ALIGN="right">17,23</TD>
+<TD ALIGN="right">23,028</TD>
+<TD ALIGN="right">10,480</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,600</b></TD>
+<TD ALIGN="right">18973,0</TD>
+<TD ALIGN="right">19447,3</TD>
+<TD ALIGN="right">40,565</TD>
+<TD ALIGN="right">7,382</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,396</TD>
+<TD ALIGN="right">17,28</TD>
+<TD ALIGN="right">23,193</TD>
+<TD ALIGN="right">10,508</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,700</b></TD>
+<TD ALIGN="right">19075,6</TD>
+<TD ALIGN="right">19552,5</TD>
+<TD ALIGN="right">40,681</TD>
+<TD ALIGN="right">7,416</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,426</TD>
+<TD ALIGN="right">17,33</TD>
+<TD ALIGN="right">23,357</TD>
+<TD ALIGN="right">10,535</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,800</b></TD>
+<TD ALIGN="right">19178,5</TD>
+<TD ALIGN="right">19658,0</TD>
+<TD ALIGN="right">40,797</TD>
+<TD ALIGN="right">7,450</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,455</TD>
+<TD ALIGN="right">17,38</TD>
+<TD ALIGN="right">23,520</TD>
+<TD ALIGN="right">10,562</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>13,900</b></TD>
+<TD ALIGN="right">19281,7</TD>
+<TD ALIGN="right">19763,8</TD>
+<TD ALIGN="right">40,913</TD>
+<TD ALIGN="right">7,484</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,485</TD>
+<TD ALIGN="right">17,43</TD>
+<TD ALIGN="right">23,685</TD>
+<TD ALIGN="right">10,589</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,000</b></TD>
+<TD ALIGN="right">19385,2</TD>
+<TD ALIGN="right">19869,8</TD>
+<TD ALIGN="right">41,028</TD>
+<TD ALIGN="right">7,519</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,516</TD>
+<TD ALIGN="right">17,48</TD>
+<TD ALIGN="right">23,850</TD>
+<TD ALIGN="right">10,617</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,100</b></TD>
+<TD ALIGN="right">19488,9</TD>
+<TD ALIGN="right">19976,1</TD>
+<TD ALIGN="right">41,143</TD>
+<TD ALIGN="right">7,553</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,546</TD>
+<TD ALIGN="right">17,53</TD>
+<TD ALIGN="right">24,015</TD>
+<TD ALIGN="right">10,645</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,200</b></TD>
+<TD ALIGN="right">19592,8</TD>
+<TD ALIGN="right">20082,7</TD>
+<TD ALIGN="right">41,257</TD>
+<TD ALIGN="right">7,588</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,577</TD>
+<TD ALIGN="right">17,58</TD>
+<TD ALIGN="right">24,179</TD>
+<TD ALIGN="right">10,672</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,300</b></TD>
+<TD ALIGN="right">19697,1</TD>
+<TD ALIGN="right">20189,5</TD>
+<TD ALIGN="right">41,371</TD>
+<TD ALIGN="right">7,624</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,608</TD>
+<TD ALIGN="right">17,63</TD>
+<TD ALIGN="right">24,344</TD>
+<TD ALIGN="right">10,699</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,400</b></TD>
+<TD ALIGN="right">19765,3</TD>
+<TD ALIGN="right">20259,4</TD>
+<TD ALIGN="right">41,447</TD>
+<TD ALIGN="right">7,647</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,162</TD>
+<TD ALIGN="right">9,78</TD>
+<TD ALIGN="right">5,196</TD>
+<TD ALIGN="right">4,668</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,500</b></TD>
+<TD ALIGN="right">19810,8</TD>
+<TD ALIGN="right">20306,0</TD>
+<TD ALIGN="right">41,496</TD>
+<TD ALIGN="right">7,662</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,175</TD>
+<TD ALIGN="right">9,78</TD>
+<TD ALIGN="right">5,176</TD>
+<TD ALIGN="right">4,662</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,600</b></TD>
+<TD ALIGN="right">19856,2</TD>
+<TD ALIGN="right">20352,6</TD>
+<TD ALIGN="right">41,544</TD>
+<TD ALIGN="right">7,678</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,189</TD>
+<TD ALIGN="right">9,78</TD>
+<TD ALIGN="right">5,156</TD>
+<TD ALIGN="right">4,656</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,700</b></TD>
+<TD ALIGN="right">19901,6</TD>
+<TD ALIGN="right">20399,1</TD>
+<TD ALIGN="right">41,592</TD>
+<TD ALIGN="right">7,694</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,203</TD>
+<TD ALIGN="right">9,78</TD>
+<TD ALIGN="right">5,136</TD>
+<TD ALIGN="right">4,649</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,800</b></TD>
+<TD ALIGN="right">19946,9</TD>
+<TD ALIGN="right">20445,6</TD>
+<TD ALIGN="right">41,640</TD>
+<TD ALIGN="right">7,710</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,217</TD>
+<TD ALIGN="right">9,79</TD>
+<TD ALIGN="right">5,118</TD>
+<TD ALIGN="right">4,643</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>14,900</b></TD>
+<TD ALIGN="right">19994,5</TD>
+<TD ALIGN="right">20494,4</TD>
+<TD ALIGN="right">41,690</TD>
+<TD ALIGN="right">7,727</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,419</TD>
+<TD ALIGN="right">9,84</TD>
+<TD ALIGN="right">5,213</TD>
+<TD ALIGN="right">4,994</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,000</b></TD>
+<TD ALIGN="right">20043,2</TD>
+<TD ALIGN="right">20544,3</TD>
+<TD ALIGN="right">41,740</TD>
+<TD ALIGN="right">7,745</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,435</TD>
+<TD ALIGN="right">9,85</TD>
+<TD ALIGN="right">5,201</TD>
+<TD ALIGN="right">4,989</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,100</b></TD>
+<TD ALIGN="right">20091,8</TD>
+<TD ALIGN="right">20594,1</TD>
+<TD ALIGN="right">41,790</TD>
+<TD ALIGN="right">7,762</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,450</TD>
+<TD ALIGN="right">9,85</TD>
+<TD ALIGN="right">5,191</TD>
+<TD ALIGN="right">4,983</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,200</b></TD>
+<TD ALIGN="right">20140,3</TD>
+<TD ALIGN="right">20643,8</TD>
+<TD ALIGN="right">41,840</TD>
+<TD ALIGN="right">7,780</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,466</TD>
+<TD ALIGN="right">9,86</TD>
+<TD ALIGN="right">5,179</TD>
+<TD ALIGN="right">4,977</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,300</b></TD>
+<TD ALIGN="right">20188,8</TD>
+<TD ALIGN="right">20693,5</TD>
+<TD ALIGN="right">41,889</TD>
+<TD ALIGN="right">7,798</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,481</TD>
+<TD ALIGN="right">9,87</TD>
+<TD ALIGN="right">5,165</TD>
+<TD ALIGN="right">4,971</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,400</b></TD>
+<TD ALIGN="right">20237,3</TD>
+<TD ALIGN="right">20743,2</TD>
+<TD ALIGN="right">41,938</TD>
+<TD ALIGN="right">7,816</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,497</TD>
+<TD ALIGN="right">9,88</TD>
+<TD ALIGN="right">5,158</TD>
+<TD ALIGN="right">4,966</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,500</b></TD>
+<TD ALIGN="right">20285,7</TD>
+<TD ALIGN="right">20792,8</TD>
+<TD ALIGN="right">41,987</TD>
+<TD ALIGN="right">7,834</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,514</TD>
+<TD ALIGN="right">9,89</TD>
+<TD ALIGN="right">5,153</TD>
+<TD ALIGN="right">4,961</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,600</b></TD>
+<TD ALIGN="right">20334,1</TD>
+<TD ALIGN="right">20842,4</TD>
+<TD ALIGN="right">42,036</TD>
+<TD ALIGN="right">7,853</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,530</TD>
+<TD ALIGN="right">9,90</TD>
+<TD ALIGN="right">5,147</TD>
+<TD ALIGN="right">4,956</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,700</b></TD>
+<TD ALIGN="right">20382,4</TD>
+<TD ALIGN="right">20891,9</TD>
+<TD ALIGN="right">42,084</TD>
+<TD ALIGN="right">7,871</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,546</TD>
+<TD ALIGN="right">9,91</TD>
+<TD ALIGN="right">5,140</TD>
+<TD ALIGN="right">4,951</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,800</b></TD>
+<TD ALIGN="right">20430,6</TD>
+<TD ALIGN="right">20941,4</TD>
+<TD ALIGN="right">42,132</TD>
+<TD ALIGN="right">7,890</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,563</TD>
+<TD ALIGN="right">9,92</TD>
+<TD ALIGN="right">5,134</TD>
+<TD ALIGN="right">4,946</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>15,900</b></TD>
+<TD ALIGN="right">20478,8</TD>
+<TD ALIGN="right">20990,7</TD>
+<TD ALIGN="right">42,179</TD>
+<TD ALIGN="right">7,908</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,580</TD>
+<TD ALIGN="right">9,94</TD>
+<TD ALIGN="right">5,131</TD>
+<TD ALIGN="right">4,941</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,000</b></TD>
+<TD ALIGN="right">20526,9</TD>
+<TD ALIGN="right">21040,1</TD>
+<TD ALIGN="right">42,226</TD>
+<TD ALIGN="right">7,927</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,597</TD>
+<TD ALIGN="right">9,95</TD>
+<TD ALIGN="right">5,130</TD>
+<TD ALIGN="right">4,936</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,100</b></TD>
+<TD ALIGN="right">20575,0</TD>
+<TD ALIGN="right">21089,4</TD>
+<TD ALIGN="right">42,273</TD>
+<TD ALIGN="right">7,946</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,614</TD>
+<TD ALIGN="right">9,96</TD>
+<TD ALIGN="right">5,128</TD>
+<TD ALIGN="right">4,931</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,200</b></TD>
+<TD ALIGN="right">20623,1</TD>
+<TD ALIGN="right">21138,7</TD>
+<TD ALIGN="right">42,320</TD>
+<TD ALIGN="right">7,965</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,631</TD>
+<TD ALIGN="right">9,98</TD>
+<TD ALIGN="right">5,126</TD>
+<TD ALIGN="right">4,926</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,300</b></TD>
+<TD ALIGN="right">20671,1</TD>
+<TD ALIGN="right">21187,9</TD>
+<TD ALIGN="right">42,366</TD>
+<TD ALIGN="right">7,985</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,649</TD>
+<TD ALIGN="right">9,99</TD>
+<TD ALIGN="right">5,124</TD>
+<TD ALIGN="right">4,921</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,400</b></TD>
+<TD ALIGN="right">20719,4</TD>
+<TD ALIGN="right">21237,4</TD>
+<TD ALIGN="right">42,412</TD>
+<TD ALIGN="right">8,004</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,688</TD>
+<TD ALIGN="right">10,12</TD>
+<TD ALIGN="right">5,410</TD>
+<TD ALIGN="right">4,962</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,500</b></TD>
+<TD ALIGN="right">20767,8</TD>
+<TD ALIGN="right">21287,0</TD>
+<TD ALIGN="right">42,457</TD>
+<TD ALIGN="right">8,024</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,706</TD>
+<TD ALIGN="right">10,13</TD>
+<TD ALIGN="right">5,401</TD>
+<TD ALIGN="right">4,956</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,600</b></TD>
+<TD ALIGN="right">20816,1</TD>
+<TD ALIGN="right">21336,5</TD>
+<TD ALIGN="right">42,503</TD>
+<TD ALIGN="right">8,044</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,723</TD>
+<TD ALIGN="right">10,14</TD>
+<TD ALIGN="right">5,391</TD>
+<TD ALIGN="right">4,950</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,700</b></TD>
+<TD ALIGN="right">20864,3</TD>
+<TD ALIGN="right">21385,9</TD>
+<TD ALIGN="right">42,547</TD>
+<TD ALIGN="right">8,064</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,740</TD>
+<TD ALIGN="right">10,15</TD>
+<TD ALIGN="right">5,378</TD>
+<TD ALIGN="right">4,943</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,800</b></TD>
+<TD ALIGN="right">20912,5</TD>
+<TD ALIGN="right">21435,3</TD>
+<TD ALIGN="right">42,592</TD>
+<TD ALIGN="right">8,084</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,758</TD>
+<TD ALIGN="right">10,16</TD>
+<TD ALIGN="right">5,364</TD>
+<TD ALIGN="right">4,937</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>16,900</b></TD>
+<TD ALIGN="right">20960,6</TD>
+<TD ALIGN="right">21484,6</TD>
+<TD ALIGN="right">42,636</TD>
+<TD ALIGN="right">8,104</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,775</TD>
+<TD ALIGN="right">10,17</TD>
+<TD ALIGN="right">5,350</TD>
+<TD ALIGN="right">4,930</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,000</b></TD>
+<TD ALIGN="right">21008,7</TD>
+<TD ALIGN="right">21533,9</TD>
+<TD ALIGN="right">42,680</TD>
+<TD ALIGN="right">8,124</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,793</TD>
+<TD ALIGN="right">10,18</TD>
+<TD ALIGN="right">5,335</TD>
+<TD ALIGN="right">4,923</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,100</b></TD>
+<TD ALIGN="right">21056,7</TD>
+<TD ALIGN="right">21583,1</TD>
+<TD ALIGN="right">42,724</TD>
+<TD ALIGN="right">8,144</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,811</TD>
+<TD ALIGN="right">10,19</TD>
+<TD ALIGN="right">5,321</TD>
+<TD ALIGN="right">4,916</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,200</b></TD>
+<TD ALIGN="right">21102,2</TD>
+<TD ALIGN="right">21629,7</TD>
+<TD ALIGN="right">42,765</TD>
+<TD ALIGN="right">8,164</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,642</TD>
+<TD ALIGN="right">10,16</TD>
+<TD ALIGN="right">5,206</TD>
+<TD ALIGN="right">4,537</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,300</b></TD>
+<TD ALIGN="right">21146,4</TD>
+<TD ALIGN="right">21675,0</TD>
+<TD ALIGN="right">42,805</TD>
+<TD ALIGN="right">8,183</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,659</TD>
+<TD ALIGN="right">10,17</TD>
+<TD ALIGN="right">5,191</TD>
+<TD ALIGN="right">4,530</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,400</b></TD>
+<TD ALIGN="right">21179,5</TD>
+<TD ALIGN="right">21709,0</TD>
+<TD ALIGN="right">42,830</TD>
+<TD ALIGN="right">8,197</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,499</TD>
+<TD ALIGN="right">9,01</TD>
+<TD ALIGN="right">2,115</TD>
+<TD ALIGN="right">2,819</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,500</b></TD>
+<TD ALIGN="right">21207,0</TD>
+<TD ALIGN="right">21737,1</TD>
+<TD ALIGN="right">42,848</TD>
+<TD ALIGN="right">8,209</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,511</TD>
+<TD ALIGN="right">9,02</TD>
+<TD ALIGN="right">2,116</TD>
+<TD ALIGN="right">2,815</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,600</b></TD>
+<TD ALIGN="right">21234,4</TD>
+<TD ALIGN="right">21765,3</TD>
+<TD ALIGN="right">42,866</TD>
+<TD ALIGN="right">8,221</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,522</TD>
+<TD ALIGN="right">9,03</TD>
+<TD ALIGN="right">2,117</TD>
+<TD ALIGN="right">2,811</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,700</b></TD>
+<TD ALIGN="right">21261,8</TD>
+<TD ALIGN="right">21793,3</TD>
+<TD ALIGN="right">42,883</TD>
+<TD ALIGN="right">8,233</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,534</TD>
+<TD ALIGN="right">9,04</TD>
+<TD ALIGN="right">2,117</TD>
+<TD ALIGN="right">2,808</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,800</b></TD>
+<TD ALIGN="right">21289,2</TD>
+<TD ALIGN="right">21821,4</TD>
+<TD ALIGN="right">42,901</TD>
+<TD ALIGN="right">8,245</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,546</TD>
+<TD ALIGN="right">9,05</TD>
+<TD ALIGN="right">2,118</TD>
+<TD ALIGN="right">2,804</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>17,900</b></TD>
+<TD ALIGN="right">21316,5</TD>
+<TD ALIGN="right">21849,4</TD>
+<TD ALIGN="right">42,918</TD>
+<TD ALIGN="right">8,258</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,557</TD>
+<TD ALIGN="right">9,06</TD>
+<TD ALIGN="right">2,112</TD>
+<TD ALIGN="right">2,798</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,000</b></TD>
+<TD ALIGN="right">21343,7</TD>
+<TD ALIGN="right">21877,3</TD>
+<TD ALIGN="right">42,935</TD>
+<TD ALIGN="right">8,270</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,568</TD>
+<TD ALIGN="right">9,07</TD>
+<TD ALIGN="right">2,103</TD>
+<TD ALIGN="right">2,792</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,100</b></TD>
+<TD ALIGN="right">21370,9</TD>
+<TD ALIGN="right">21905,2</TD>
+<TD ALIGN="right">42,953</TD>
+<TD ALIGN="right">8,283</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,579</TD>
+<TD ALIGN="right">9,08</TD>
+<TD ALIGN="right">2,094</TD>
+<TD ALIGN="right">2,786</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,200</b></TD>
+<TD ALIGN="right">21398,2</TD>
+<TD ALIGN="right">21933,2</TD>
+<TD ALIGN="right">42,970</TD>
+<TD ALIGN="right">8,295</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,626</TD>
+<TD ALIGN="right">9,09</TD>
+<TD ALIGN="right">2,096</TD>
+<TD ALIGN="right">2,854</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,300</b></TD>
+<TD ALIGN="right">21426,5</TD>
+<TD ALIGN="right">21962,1</TD>
+<TD ALIGN="right">42,988</TD>
+<TD ALIGN="right">8,308</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,677</TD>
+<TD ALIGN="right">9,10</TD>
+<TD ALIGN="right">2,096</TD>
+<TD ALIGN="right">2,929</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,400</b></TD>
+<TD ALIGN="right">21469,7</TD>
+<TD ALIGN="right">22006,4</TD>
+<TD ALIGN="right">43,030</TD>
+<TD ALIGN="right">8,329</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,054</TD>
+<TD ALIGN="right">13,46</TD>
+<TD ALIGN="right">13,613</TD>
+<TD ALIGN="right">5,939</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,500</b></TD>
+<TD ALIGN="right">21530,2</TD>
+<TD ALIGN="right">22068,4</TD>
+<TD ALIGN="right">43,098</TD>
+<TD ALIGN="right">8,357</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,212</TD>
+<TD ALIGN="right">14,40</TD>
+<TD ALIGN="right">16,058</TD>
+<TD ALIGN="right">6,453</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,600</b></TD>
+<TD ALIGN="right">21579,1</TD>
+<TD ALIGN="right">22118,6</TD>
+<TD ALIGN="right">43,145</TD>
+<TD ALIGN="right">8,380</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,670</TD>
+<TD ALIGN="right">16,56</TD>
+<TD ALIGN="right">21,792</TD>
+<TD ALIGN="right">9,910</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,700</b></TD>
+<TD ALIGN="right">21615,0</TD>
+<TD ALIGN="right">22155,4</TD>
+<TD ALIGN="right">43,169</TD>
+<TD ALIGN="right">8,397</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,788</TD>
+<TD ALIGN="right">16,93</TD>
+<TD ALIGN="right">22,773</TD>
+<TD ALIGN="right">10,342</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,800</b></TD>
+<TD ALIGN="right">21647,0</TD>
+<TD ALIGN="right">22188,2</TD>
+<TD ALIGN="right">43,186</TD>
+<TD ALIGN="right">8,412</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,878</TD>
+<TD ALIGN="right">9,43</TD>
+<TD ALIGN="right">2,708</TD>
+<TD ALIGN="right">3,086</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>18,900</b></TD>
+<TD ALIGN="right">21677,0</TD>
+<TD ALIGN="right">22218,9</TD>
+<TD ALIGN="right">43,200</TD>
+<TD ALIGN="right">8,427</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,877</TD>
+<TD ALIGN="right">9,43</TD>
+<TD ALIGN="right">2,679</TD>
+<TD ALIGN="right">3,053</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,000</b></TD>
+<TD ALIGN="right">21706,6</TD>
+<TD ALIGN="right">22249,3</TD>
+<TD ALIGN="right">43,213</TD>
+<TD ALIGN="right">8,441</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,875</TD>
+<TD ALIGN="right">9,44</TD>
+<TD ALIGN="right">2,688</TD>
+<TD ALIGN="right">3,018</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,100</b></TD>
+<TD ALIGN="right">21735,8</TD>
+<TD ALIGN="right">22279,2</TD>
+<TD ALIGN="right">43,226</TD>
+<TD ALIGN="right">8,455</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,871</TD>
+<TD ALIGN="right">9,46</TD>
+<TD ALIGN="right">2,695</TD>
+<TD ALIGN="right">2,978</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,200</b></TD>
+<TD ALIGN="right">21764,7</TD>
+<TD ALIGN="right">22308,8</TD>
+<TD ALIGN="right">43,239</TD>
+<TD ALIGN="right">8,470</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,865</TD>
+<TD ALIGN="right">9,47</TD>
+<TD ALIGN="right">2,700</TD>
+<TD ALIGN="right">2,933</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,300</b></TD>
+<TD ALIGN="right">21793,0</TD>
+<TD ALIGN="right">22337,9</TD>
+<TD ALIGN="right">43,251</TD>
+<TD ALIGN="right">8,484</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,856</TD>
+<TD ALIGN="right">9,49</TD>
+<TD ALIGN="right">2,700</TD>
+<TD ALIGN="right">2,882</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,400</b></TD>
+<TD ALIGN="right">21820,8</TD>
+<TD ALIGN="right">22366,3</TD>
+<TD ALIGN="right">43,263</TD>
+<TD ALIGN="right">8,498</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,845</TD>
+<TD ALIGN="right">9,46</TD>
+<TD ALIGN="right">2,584</TD>
+<TD ALIGN="right">2,823</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,500</b></TD>
+<TD ALIGN="right">21848,2</TD>
+<TD ALIGN="right">22394,4</TD>
+<TD ALIGN="right">43,275</TD>
+<TD ALIGN="right">8,511</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,850</TD>
+<TD ALIGN="right">9,40</TD>
+<TD ALIGN="right">2,404</TD>
+<TD ALIGN="right">2,796</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,600</b></TD>
+<TD ALIGN="right">21875,3</TD>
+<TD ALIGN="right">22422,2</TD>
+<TD ALIGN="right">43,288</TD>
+<TD ALIGN="right">8,525</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,855</TD>
+<TD ALIGN="right">9,35</TD>
+<TD ALIGN="right">2,216</TD>
+<TD ALIGN="right">2,765</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,700</b></TD>
+<TD ALIGN="right">21902,1</TD>
+<TD ALIGN="right">22449,7</TD>
+<TD ALIGN="right">43,300</TD>
+<TD ALIGN="right">8,539</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,858</TD>
+<TD ALIGN="right">9,29</TD>
+<TD ALIGN="right">2,022</TD>
+<TD ALIGN="right">2,731</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,800</b></TD>
+<TD ALIGN="right">21928,6</TD>
+<TD ALIGN="right">22476,8</TD>
+<TD ALIGN="right">43,312</TD>
+<TD ALIGN="right">8,552</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,861</TD>
+<TD ALIGN="right">9,23</TD>
+<TD ALIGN="right">1,826</TD>
+<TD ALIGN="right">2,694</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>19,900</b></TD>
+<TD ALIGN="right">21954,7</TD>
+<TD ALIGN="right">22503,5</TD>
+<TD ALIGN="right">43,325</TD>
+<TD ALIGN="right">8,565</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,862</TD>
+<TD ALIGN="right">9,17</TD>
+<TD ALIGN="right">1,629</TD>
+<TD ALIGN="right">2,654</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,000</b></TD>
+<TD ALIGN="right">21980,3</TD>
+<TD ALIGN="right">22529,8</TD>
+<TD ALIGN="right">43,337</TD>
+<TD ALIGN="right">8,579</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,862</TD>
+<TD ALIGN="right">9,11</TD>
+<TD ALIGN="right">1,435</TD>
+<TD ALIGN="right">2,611</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,100</b></TD>
+<TD ALIGN="right">22005,6</TD>
+<TD ALIGN="right">22555,7</TD>
+<TD ALIGN="right">43,350</TD>
+<TD ALIGN="right">8,592</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,862</TD>
+<TD ALIGN="right">9,05</TD>
+<TD ALIGN="right">1,244</TD>
+<TD ALIGN="right">2,565</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,200</b></TD>
+<TD ALIGN="right">22030,3</TD>
+<TD ALIGN="right">22581,1</TD>
+<TD ALIGN="right">43,363</TD>
+<TD ALIGN="right">8,605</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,860</TD>
+<TD ALIGN="right">8,99</TD>
+<TD ALIGN="right">1,058</TD>
+<TD ALIGN="right">2,516</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,300</b></TD>
+<TD ALIGN="right">22054,6</TD>
+<TD ALIGN="right">22606,0</TD>
+<TD ALIGN="right">43,375</TD>
+<TD ALIGN="right">8,618</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,857</TD>
+<TD ALIGN="right">8,94</TD>
+<TD ALIGN="right">0,879</TD>
+<TD ALIGN="right">2,464</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,400</b></TD>
+<TD ALIGN="right">22078,1</TD>
+<TD ALIGN="right">22630,0</TD>
+<TD ALIGN="right">43,388</TD>
+<TD ALIGN="right">8,630</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,842</TD>
+<TD ALIGN="right">8,85</TD>
+<TD ALIGN="right">0,600</TD>
+<TD ALIGN="right">2,374</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,500</b></TD>
+<TD ALIGN="right">22101,2</TD>
+<TD ALIGN="right">22653,7</TD>
+<TD ALIGN="right">43,401</TD>
+<TD ALIGN="right">8,643</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,853</TD>
+<TD ALIGN="right">8,86</TD>
+<TD ALIGN="right">0,596</TD>
+<TD ALIGN="right">2,369</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,600</b></TD>
+<TD ALIGN="right">22124,3</TD>
+<TD ALIGN="right">22677,4</TD>
+<TD ALIGN="right">43,414</TD>
+<TD ALIGN="right">8,655</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,865</TD>
+<TD ALIGN="right">8,87</TD>
+<TD ALIGN="right">0,592</TD>
+<TD ALIGN="right">2,364</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,700</b></TD>
+<TD ALIGN="right">22147,3</TD>
+<TD ALIGN="right">22701,0</TD>
+<TD ALIGN="right">43,426</TD>
+<TD ALIGN="right">8,667</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,877</TD>
+<TD ALIGN="right">8,88</TD>
+<TD ALIGN="right">0,589</TD>
+<TD ALIGN="right">2,359</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,800</b></TD>
+<TD ALIGN="right">22170,3</TD>
+<TD ALIGN="right">22724,6</TD>
+<TD ALIGN="right">43,439</TD>
+<TD ALIGN="right">8,680</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,889</TD>
+<TD ALIGN="right">8,89</TD>
+<TD ALIGN="right">0,585</TD>
+<TD ALIGN="right">2,354</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>20,900</b></TD>
+<TD ALIGN="right">22193,2</TD>
+<TD ALIGN="right">22748,1</TD>
+<TD ALIGN="right">43,452</TD>
+<TD ALIGN="right">8,693</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,901</TD>
+<TD ALIGN="right">8,90</TD>
+<TD ALIGN="right">0,581</TD>
+<TD ALIGN="right">2,348</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,000</b></TD>
+<TD ALIGN="right">22216,1</TD>
+<TD ALIGN="right">22771,5</TD>
+<TD ALIGN="right">43,464</TD>
+<TD ALIGN="right">8,705</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,913</TD>
+<TD ALIGN="right">8,92</TD>
+<TD ALIGN="right">0,578</TD>
+<TD ALIGN="right">2,343</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,100</b></TD>
+<TD ALIGN="right">22239,0</TD>
+<TD ALIGN="right">22794,9</TD>
+<TD ALIGN="right">43,476</TD>
+<TD ALIGN="right">8,718</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,925</TD>
+<TD ALIGN="right">8,93</TD>
+<TD ALIGN="right">0,574</TD>
+<TD ALIGN="right">2,338</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,200</b></TD>
+<TD ALIGN="right">22261,8</TD>
+<TD ALIGN="right">22818,3</TD>
+<TD ALIGN="right">43,489</TD>
+<TD ALIGN="right">8,731</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,937</TD>
+<TD ALIGN="right">8,94</TD>
+<TD ALIGN="right">0,570</TD>
+<TD ALIGN="right">2,333</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,300</b></TD>
+<TD ALIGN="right">22284,5</TD>
+<TD ALIGN="right">22841,6</TD>
+<TD ALIGN="right">43,501</TD>
+<TD ALIGN="right">8,743</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,949</TD>
+<TD ALIGN="right">8,95</TD>
+<TD ALIGN="right">0,567</TD>
+<TD ALIGN="right">2,328</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,400</b></TD>
+<TD ALIGN="right">22307,2</TD>
+<TD ALIGN="right">22864,9</TD>
+<TD ALIGN="right">43,513</TD>
+<TD ALIGN="right">8,756</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,961</TD>
+<TD ALIGN="right">8,96</TD>
+<TD ALIGN="right">0,563</TD>
+<TD ALIGN="right">2,323</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,500</b></TD>
+<TD ALIGN="right">22329,8</TD>
+<TD ALIGN="right">22888,1</TD>
+<TD ALIGN="right">43,525</TD>
+<TD ALIGN="right">8,769</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,973</TD>
+<TD ALIGN="right">8,97</TD>
+<TD ALIGN="right">0,559</TD>
+<TD ALIGN="right">2,318</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,600</b></TD>
+<TD ALIGN="right">22352,4</TD>
+<TD ALIGN="right">22911,2</TD>
+<TD ALIGN="right">43,537</TD>
+<TD ALIGN="right">8,782</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,986</TD>
+<TD ALIGN="right">8,98</TD>
+<TD ALIGN="right">0,556</TD>
+<TD ALIGN="right">2,312</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,700</b></TD>
+<TD ALIGN="right">22374,9</TD>
+<TD ALIGN="right">22934,3</TD>
+<TD ALIGN="right">43,549</TD>
+<TD ALIGN="right">8,795</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">8,998</TD>
+<TD ALIGN="right">8,99</TD>
+<TD ALIGN="right">0,552</TD>
+<TD ALIGN="right">2,307</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,800</b></TD>
+<TD ALIGN="right">22397,4</TD>
+<TD ALIGN="right">22957,4</TD>
+<TD ALIGN="right">43,561</TD>
+<TD ALIGN="right">8,808</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,010</TD>
+<TD ALIGN="right">9,01</TD>
+<TD ALIGN="right">0,549</TD>
+<TD ALIGN="right">2,302</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>21,900</b></TD>
+<TD ALIGN="right">22419,9</TD>
+<TD ALIGN="right">22980,4</TD>
+<TD ALIGN="right">43,573</TD>
+<TD ALIGN="right">8,821</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,023</TD>
+<TD ALIGN="right">9,02</TD>
+<TD ALIGN="right">0,545</TD>
+<TD ALIGN="right">2,297</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,000</b></TD>
+<TD ALIGN="right">22442,2</TD>
+<TD ALIGN="right">23003,3</TD>
+<TD ALIGN="right">43,585</TD>
+<TD ALIGN="right">8,834</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,035</TD>
+<TD ALIGN="right">9,03</TD>
+<TD ALIGN="right">0,542</TD>
+<TD ALIGN="right">2,292</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,100</b></TD>
+<TD ALIGN="right">22464,6</TD>
+<TD ALIGN="right">23026,2</TD>
+<TD ALIGN="right">43,597</TD>
+<TD ALIGN="right">8,847</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,048</TD>
+<TD ALIGN="right">9,04</TD>
+<TD ALIGN="right">0,538</TD>
+<TD ALIGN="right">2,287</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,200</b></TD>
+<TD ALIGN="right">22486,9</TD>
+<TD ALIGN="right">23049,0</TD>
+<TD ALIGN="right">43,608</TD>
+<TD ALIGN="right">8,860</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,060</TD>
+<TD ALIGN="right">9,05</TD>
+<TD ALIGN="right">0,535</TD>
+<TD ALIGN="right">2,282</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,300</b></TD>
+<TD ALIGN="right">22509,1</TD>
+<TD ALIGN="right">23071,8</TD>
+<TD ALIGN="right">43,620</TD>
+<TD ALIGN="right">8,874</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,073</TD>
+<TD ALIGN="right">9,06</TD>
+<TD ALIGN="right">0,531</TD>
+<TD ALIGN="right">2,277</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,400</b></TD>
+<TD ALIGN="right">22531,3</TD>
+<TD ALIGN="right">23094,6</TD>
+<TD ALIGN="right">43,631</TD>
+<TD ALIGN="right">8,887</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,086</TD>
+<TD ALIGN="right">9,08</TD>
+<TD ALIGN="right">0,528</TD>
+<TD ALIGN="right">2,271</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,500</b></TD>
+<TD ALIGN="right">22553,4</TD>
+<TD ALIGN="right">23117,3</TD>
+<TD ALIGN="right">43,643</TD>
+<TD ALIGN="right">8,900</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,098</TD>
+<TD ALIGN="right">9,09</TD>
+<TD ALIGN="right">0,524</TD>
+<TD ALIGN="right">2,266</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,600</b></TD>
+<TD ALIGN="right">22575,5</TD>
+<TD ALIGN="right">23139,9</TD>
+<TD ALIGN="right">43,654</TD>
+<TD ALIGN="right">8,914</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,111</TD>
+<TD ALIGN="right">9,10</TD>
+<TD ALIGN="right">0,521</TD>
+<TD ALIGN="right">2,261</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,700</b></TD>
+<TD ALIGN="right">22597,5</TD>
+<TD ALIGN="right">23162,5</TD>
+<TD ALIGN="right">43,666</TD>
+<TD ALIGN="right">8,927</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,124</TD>
+<TD ALIGN="right">9,11</TD>
+<TD ALIGN="right">0,518</TD>
+<TD ALIGN="right">2,256</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,800</b></TD>
+<TD ALIGN="right">22619,5</TD>
+<TD ALIGN="right">23185,0</TD>
+<TD ALIGN="right">43,677</TD>
+<TD ALIGN="right">8,940</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,137</TD>
+<TD ALIGN="right">9,12</TD>
+<TD ALIGN="right">0,514</TD>
+<TD ALIGN="right">2,251</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>22,900</b></TD>
+<TD ALIGN="right">22641,5</TD>
+<TD ALIGN="right">23207,5</TD>
+<TD ALIGN="right">43,688</TD>
+<TD ALIGN="right">8,954</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,150</TD>
+<TD ALIGN="right">9,14</TD>
+<TD ALIGN="right">0,511</TD>
+<TD ALIGN="right">2,246</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,000</b></TD>
+<TD ALIGN="right">22663,3</TD>
+<TD ALIGN="right">23229,9</TD>
+<TD ALIGN="right">43,699</TD>
+<TD ALIGN="right">8,967</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,163</TD>
+<TD ALIGN="right">9,15</TD>
+<TD ALIGN="right">0,508</TD>
+<TD ALIGN="right">2,241</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,100</b></TD>
+<TD ALIGN="right">22685,2</TD>
+<TD ALIGN="right">23252,3</TD>
+<TD ALIGN="right">43,710</TD>
+<TD ALIGN="right">8,981</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,175</TD>
+<TD ALIGN="right">9,16</TD>
+<TD ALIGN="right">0,504</TD>
+<TD ALIGN="right">2,236</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,200</b></TD>
+<TD ALIGN="right">22707,0</TD>
+<TD ALIGN="right">23274,6</TD>
+<TD ALIGN="right">43,721</TD>
+<TD ALIGN="right">8,995</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,188</TD>
+<TD ALIGN="right">9,17</TD>
+<TD ALIGN="right">0,501</TD>
+<TD ALIGN="right">2,230</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,300</b></TD>
+<TD ALIGN="right">22728,7</TD>
+<TD ALIGN="right">23296,9</TD>
+<TD ALIGN="right">43,732</TD>
+<TD ALIGN="right">9,008</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,202</TD>
+<TD ALIGN="right">9,19</TD>
+<TD ALIGN="right">0,498</TD>
+<TD ALIGN="right">2,225</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,400</b></TD>
+<TD ALIGN="right">22745,1</TD>
+<TD ALIGN="right">23313,7</TD>
+<TD ALIGN="right">43,740</TD>
+<TD ALIGN="right">9,019</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,120</TD>
+<TD ALIGN="right">9,08</TD>
+<TD ALIGN="right">0,177</TD>
+<TD ALIGN="right">1,405</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,500</b></TD>
+<TD ALIGN="right">22758,8</TD>
+<TD ALIGN="right">23327,7</TD>
+<TD ALIGN="right">43,745</TD>
+<TD ALIGN="right">9,027</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,128</TD>
+<TD ALIGN="right">9,09</TD>
+<TD ALIGN="right">0,176</TD>
+<TD ALIGN="right">1,404</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,600</b></TD>
+<TD ALIGN="right">22772,4</TD>
+<TD ALIGN="right">23341,8</TD>
+<TD ALIGN="right">43,751</TD>
+<TD ALIGN="right">9,036</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,137</TD>
+<TD ALIGN="right">9,10</TD>
+<TD ALIGN="right">0,176</TD>
+<TD ALIGN="right">1,401</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,700</b></TD>
+<TD ALIGN="right">22786,1</TD>
+<TD ALIGN="right">23355,7</TD>
+<TD ALIGN="right">43,756</TD>
+<TD ALIGN="right">9,045</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,146</TD>
+<TD ALIGN="right">9,11</TD>
+<TD ALIGN="right">0,175</TD>
+<TD ALIGN="right">1,399</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,800</b></TD>
+<TD ALIGN="right">22799,7</TD>
+<TD ALIGN="right">23369,7</TD>
+<TD ALIGN="right">43,762</TD>
+<TD ALIGN="right">9,053</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,155</TD>
+<TD ALIGN="right">9,12</TD>
+<TD ALIGN="right">0,174</TD>
+<TD ALIGN="right">1,396</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>23,900</b></TD>
+<TD ALIGN="right">22813,3</TD>
+<TD ALIGN="right">23383,7</TD>
+<TD ALIGN="right">43,767</TD>
+<TD ALIGN="right">9,062</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,163</TD>
+<TD ALIGN="right">9,12</TD>
+<TD ALIGN="right">0,173</TD>
+<TD ALIGN="right">1,393</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,000</b></TD>
+<TD ALIGN="right">22826,9</TD>
+<TD ALIGN="right">23397,6</TD>
+<TD ALIGN="right">43,773</TD>
+<TD ALIGN="right">9,071</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,172</TD>
+<TD ALIGN="right">9,13</TD>
+<TD ALIGN="right">0,172</TD>
+<TD ALIGN="right">1,390</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,100</b></TD>
+<TD ALIGN="right">22840,4</TD>
+<TD ALIGN="right">23411,4</TD>
+<TD ALIGN="right">43,778</TD>
+<TD ALIGN="right">9,080</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,181</TD>
+<TD ALIGN="right">9,14</TD>
+<TD ALIGN="right">0,171</TD>
+<TD ALIGN="right">1,386</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,200</b></TD>
+<TD ALIGN="right">22853,9</TD>
+<TD ALIGN="right">23425,3</TD>
+<TD ALIGN="right">43,783</TD>
+<TD ALIGN="right">9,089</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,190</TD>
+<TD ALIGN="right">9,15</TD>
+<TD ALIGN="right">0,169</TD>
+<TD ALIGN="right">1,383</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,300</b></TD>
+<TD ALIGN="right">22867,4</TD>
+<TD ALIGN="right">23439,1</TD>
+<TD ALIGN="right">43,789</TD>
+<TD ALIGN="right">9,098</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,199</TD>
+<TD ALIGN="right">9,16</TD>
+<TD ALIGN="right">0,168</TD>
+<TD ALIGN="right">1,379</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,400</b></TD>
+<TD ALIGN="right">22880,9</TD>
+<TD ALIGN="right">23452,9</TD>
+<TD ALIGN="right">43,794</TD>
+<TD ALIGN="right">9,107</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,208</TD>
+<TD ALIGN="right">9,17</TD>
+<TD ALIGN="right">0,167</TD>
+<TD ALIGN="right">1,376</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,500</b></TD>
+<TD ALIGN="right">22894,3</TD>
+<TD ALIGN="right">23466,6</TD>
+<TD ALIGN="right">43,799</TD>
+<TD ALIGN="right">9,116</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,217</TD>
+<TD ALIGN="right">9,17</TD>
+<TD ALIGN="right">0,166</TD>
+<TD ALIGN="right">1,372</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,600</b></TD>
+<TD ALIGN="right">22907,6</TD>
+<TD ALIGN="right">23480,3</TD>
+<TD ALIGN="right">43,805</TD>
+<TD ALIGN="right">9,125</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,226</TD>
+<TD ALIGN="right">9,18</TD>
+<TD ALIGN="right">0,164</TD>
+<TD ALIGN="right">1,368</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,700</b></TD>
+<TD ALIGN="right">22920,9</TD>
+<TD ALIGN="right">23494,0</TD>
+<TD ALIGN="right">43,810</TD>
+<TD ALIGN="right">9,134</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,235</TD>
+<TD ALIGN="right">9,19</TD>
+<TD ALIGN="right">0,163</TD>
+<TD ALIGN="right">1,364</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,800</b></TD>
+<TD ALIGN="right">22934,2</TD>
+<TD ALIGN="right">23507,6</TD>
+<TD ALIGN="right">43,815</TD>
+<TD ALIGN="right">9,143</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,244</TD>
+<TD ALIGN="right">9,20</TD>
+<TD ALIGN="right">0,162</TD>
+<TD ALIGN="right">1,360</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>24,900</b></TD>
+<TD ALIGN="right">22947,5</TD>
+<TD ALIGN="right">23521,2</TD>
+<TD ALIGN="right">43,820</TD>
+<TD ALIGN="right">9,152</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,253</TD>
+<TD ALIGN="right">9,21</TD>
+<TD ALIGN="right">0,160</TD>
+<TD ALIGN="right">1,356</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,000</b></TD>
+<TD ALIGN="right">22960,7</TD>
+<TD ALIGN="right">23534,7</TD>
+<TD ALIGN="right">43,826</TD>
+<TD ALIGN="right">9,161</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,263</TD>
+<TD ALIGN="right">9,22</TD>
+<TD ALIGN="right">0,159</TD>
+<TD ALIGN="right">1,352</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,100</b></TD>
+<TD ALIGN="right">22973,9</TD>
+<TD ALIGN="right">23548,2</TD>
+<TD ALIGN="right">43,831</TD>
+<TD ALIGN="right">9,170</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,272</TD>
+<TD ALIGN="right">9,23</TD>
+<TD ALIGN="right">0,158</TD>
+<TD ALIGN="right">1,348</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,200</b></TD>
+<TD ALIGN="right">22987,0</TD>
+<TD ALIGN="right">23561,7</TD>
+<TD ALIGN="right">43,836</TD>
+<TD ALIGN="right">9,179</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,281</TD>
+<TD ALIGN="right">9,23</TD>
+<TD ALIGN="right">0,157</TD>
+<TD ALIGN="right">1,344</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,300</b></TD>
+<TD ALIGN="right">23000,1</TD>
+<TD ALIGN="right">23575,1</TD>
+<TD ALIGN="right">43,841</TD>
+<TD ALIGN="right">9,188</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,290</TD>
+<TD ALIGN="right">9,24</TD>
+<TD ALIGN="right">0,155</TD>
+<TD ALIGN="right">1,339</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,400</b></TD>
+<TD ALIGN="right">23013,1</TD>
+<TD ALIGN="right">23588,5</TD>
+<TD ALIGN="right">43,846</TD>
+<TD ALIGN="right">9,198</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,299</TD>
+<TD ALIGN="right">9,25</TD>
+<TD ALIGN="right">0,154</TD>
+<TD ALIGN="right">1,335</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,500</b></TD>
+<TD ALIGN="right">23026,1</TD>
+<TD ALIGN="right">23601,8</TD>
+<TD ALIGN="right">43,851</TD>
+<TD ALIGN="right">9,207</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,308</TD>
+<TD ALIGN="right">9,26</TD>
+<TD ALIGN="right">0,153</TD>
+<TD ALIGN="right">1,331</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,600</b></TD>
+<TD ALIGN="right">23039,1</TD>
+<TD ALIGN="right">23615,1</TD>
+<TD ALIGN="right">43,856</TD>
+<TD ALIGN="right">9,216</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,318</TD>
+<TD ALIGN="right">9,27</TD>
+<TD ALIGN="right">0,151</TD>
+<TD ALIGN="right">1,327</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,700</b></TD>
+<TD ALIGN="right">23052,0</TD>
+<TD ALIGN="right">23628,3</TD>
+<TD ALIGN="right">43,861</TD>
+<TD ALIGN="right">9,225</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,327</TD>
+<TD ALIGN="right">9,28</TD>
+<TD ALIGN="right">0,150</TD>
+<TD ALIGN="right">1,323</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,800</b></TD>
+<TD ALIGN="right">23064,9</TD>
+<TD ALIGN="right">23641,5</TD>
+<TD ALIGN="right">43,866</TD>
+<TD ALIGN="right">9,234</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,336</TD>
+<TD ALIGN="right">9,29</TD>
+<TD ALIGN="right">0,149</TD>
+<TD ALIGN="right">1,319</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>25,900</b></TD>
+<TD ALIGN="right">23077,8</TD>
+<TD ALIGN="right">23654,7</TD>
+<TD ALIGN="right">43,871</TD>
+<TD ALIGN="right">9,244</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,346</TD>
+<TD ALIGN="right">9,30</TD>
+<TD ALIGN="right">0,147</TD>
+<TD ALIGN="right">1,315</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,000</b></TD>
+<TD ALIGN="right">23090,6</TD>
+<TD ALIGN="right">23667,8</TD>
+<TD ALIGN="right">43,875</TD>
+<TD ALIGN="right">9,253</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,355</TD>
+<TD ALIGN="right">9,30</TD>
+<TD ALIGN="right">0,146</TD>
+<TD ALIGN="right">1,310</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,100</b></TD>
+<TD ALIGN="right">23103,3</TD>
+<TD ALIGN="right">23680,9</TD>
+<TD ALIGN="right">43,880</TD>
+<TD ALIGN="right">9,262</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,364</TD>
+<TD ALIGN="right">9,31</TD>
+<TD ALIGN="right">0,145</TD>
+<TD ALIGN="right">1,306</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,200</b></TD>
+<TD ALIGN="right">23116,1</TD>
+<TD ALIGN="right">23694,0</TD>
+<TD ALIGN="right">43,885</TD>
+<TD ALIGN="right">9,271</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,374</TD>
+<TD ALIGN="right">9,32</TD>
+<TD ALIGN="right">0,144</TD>
+<TD ALIGN="right">1,302</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,300</b></TD>
+<TD ALIGN="right">23128,7</TD>
+<TD ALIGN="right">23707,0</TD>
+<TD ALIGN="right">43,890</TD>
+<TD ALIGN="right">9,281</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,383</TD>
+<TD ALIGN="right">9,33</TD>
+<TD ALIGN="right">0,142</TD>
+<TD ALIGN="right">1,298</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,400</b></TD>
+<TD ALIGN="right">23144,8</TD>
+<TD ALIGN="right">23723,4</TD>
+<TD ALIGN="right">43,896</TD>
+<TD ALIGN="right">9,293</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,549</TD>
+<TD ALIGN="right">9,35</TD>
+<TD ALIGN="right">0,174</TD>
+<TD ALIGN="right">1,823</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,500</b></TD>
+<TD ALIGN="right">23162,7</TD>
+<TD ALIGN="right">23741,7</TD>
+<TD ALIGN="right">43,903</TD>
+<TD ALIGN="right">9,306</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,566</TD>
+<TD ALIGN="right">9,37</TD>
+<TD ALIGN="right">0,177</TD>
+<TD ALIGN="right">1,838</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,600</b></TD>
+<TD ALIGN="right">23180,7</TD>
+<TD ALIGN="right">23760,2</TD>
+<TD ALIGN="right">43,910</TD>
+<TD ALIGN="right">9,319</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,583</TD>
+<TD ALIGN="right">9,38</TD>
+<TD ALIGN="right">0,179</TD>
+<TD ALIGN="right">1,853</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,700</b></TD>
+<TD ALIGN="right">23198,8</TD>
+<TD ALIGN="right">23778,8</TD>
+<TD ALIGN="right">43,917</TD>
+<TD ALIGN="right">9,333</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,599</TD>
+<TD ALIGN="right">9,40</TD>
+<TD ALIGN="right">0,182</TD>
+<TD ALIGN="right">1,867</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,800</b></TD>
+<TD ALIGN="right">23217,1</TD>
+<TD ALIGN="right">23797,5</TD>
+<TD ALIGN="right">43,924</TD>
+<TD ALIGN="right">9,347</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,617</TD>
+<TD ALIGN="right">9,41</TD>
+<TD ALIGN="right">0,184</TD>
+<TD ALIGN="right">1,881</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>26,900</b></TD>
+<TD ALIGN="right">23235,5</TD>
+<TD ALIGN="right">23816,4</TD>
+<TD ALIGN="right">43,931</TD>
+<TD ALIGN="right">9,360</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,634</TD>
+<TD ALIGN="right">9,43</TD>
+<TD ALIGN="right">0,187</TD>
+<TD ALIGN="right">1,896</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,000</b></TD>
+<TD ALIGN="right">23254,1</TD>
+<TD ALIGN="right">23835,4</TD>
+<TD ALIGN="right">43,938</TD>
+<TD ALIGN="right">9,374</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,651</TD>
+<TD ALIGN="right">9,44</TD>
+<TD ALIGN="right">0,190</TD>
+<TD ALIGN="right">1,910</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,100</b></TD>
+<TD ALIGN="right">23272,8</TD>
+<TD ALIGN="right">23854,6</TD>
+<TD ALIGN="right">43,946</TD>
+<TD ALIGN="right">9,389</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,669</TD>
+<TD ALIGN="right">9,46</TD>
+<TD ALIGN="right">0,192</TD>
+<TD ALIGN="right">1,924</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,200</b></TD>
+<TD ALIGN="right">23291,6</TD>
+<TD ALIGN="right">23873,9</TD>
+<TD ALIGN="right">43,953</TD>
+<TD ALIGN="right">9,403</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,686</TD>
+<TD ALIGN="right">9,47</TD>
+<TD ALIGN="right">0,195</TD>
+<TD ALIGN="right">1,938</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,300</b></TD>
+<TD ALIGN="right">23310,6</TD>
+<TD ALIGN="right">23893,3</TD>
+<TD ALIGN="right">43,960</TD>
+<TD ALIGN="right">9,418</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,704</TD>
+<TD ALIGN="right">9,49</TD>
+<TD ALIGN="right">0,197</TD>
+<TD ALIGN="right">1,952</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,400</b></TD>
+<TD ALIGN="right">23329,7</TD>
+<TD ALIGN="right">23912,9</TD>
+<TD ALIGN="right">43,968</TD>
+<TD ALIGN="right">9,432</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,722</TD>
+<TD ALIGN="right">9,50</TD>
+<TD ALIGN="right">0,200</TD>
+<TD ALIGN="right">1,966</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,500</b></TD>
+<TD ALIGN="right">23348,9</TD>
+<TD ALIGN="right">23932,6</TD>
+<TD ALIGN="right">43,975</TD>
+<TD ALIGN="right">9,447</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,741</TD>
+<TD ALIGN="right">9,52</TD>
+<TD ALIGN="right">0,202</TD>
+<TD ALIGN="right">1,980</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,600</b></TD>
+<TD ALIGN="right">23368,3</TD>
+<TD ALIGN="right">23952,5</TD>
+<TD ALIGN="right">43,983</TD>
+<TD ALIGN="right">9,462</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,759</TD>
+<TD ALIGN="right">9,53</TD>
+<TD ALIGN="right">0,205</TD>
+<TD ALIGN="right">1,994</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,700</b></TD>
+<TD ALIGN="right">23387,8</TD>
+<TD ALIGN="right">23972,5</TD>
+<TD ALIGN="right">43,990</TD>
+<TD ALIGN="right">9,477</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,778</TD>
+<TD ALIGN="right">9,55</TD>
+<TD ALIGN="right">0,208</TD>
+<TD ALIGN="right">2,007</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,800</b></TD>
+<TD ALIGN="right">23407,5</TD>
+<TD ALIGN="right">23992,6</TD>
+<TD ALIGN="right">43,998</TD>
+<TD ALIGN="right">9,493</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,796</TD>
+<TD ALIGN="right">9,57</TD>
+<TD ALIGN="right">0,210</TD>
+<TD ALIGN="right">2,021</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>27,900</b></TD>
+<TD ALIGN="right">23427,2</TD>
+<TD ALIGN="right">24012,9</TD>
+<TD ALIGN="right">44,006</TD>
+<TD ALIGN="right">9,508</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,815</TD>
+<TD ALIGN="right">9,58</TD>
+<TD ALIGN="right">0,213</TD>
+<TD ALIGN="right">2,035</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,000</b></TD>
+<TD ALIGN="right">23447,2</TD>
+<TD ALIGN="right">24033,3</TD>
+<TD ALIGN="right">44,014</TD>
+<TD ALIGN="right">9,524</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,834</TD>
+<TD ALIGN="right">9,60</TD>
+<TD ALIGN="right">0,216</TD>
+<TD ALIGN="right">2,049</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,100</b></TD>
+<TD ALIGN="right">23467,2</TD>
+<TD ALIGN="right">24053,9</TD>
+<TD ALIGN="right">44,021</TD>
+<TD ALIGN="right">9,540</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,854</TD>
+<TD ALIGN="right">9,61</TD>
+<TD ALIGN="right">0,218</TD>
+<TD ALIGN="right">2,063</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,200</b></TD>
+<TD ALIGN="right">23487,4</TD>
+<TD ALIGN="right">24074,6</TD>
+<TD ALIGN="right">44,029</TD>
+<TD ALIGN="right">9,556</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,873</TD>
+<TD ALIGN="right">9,63</TD>
+<TD ALIGN="right">0,221</TD>
+<TD ALIGN="right">2,077</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,300</b></TD>
+<TD ALIGN="right">23507,7</TD>
+<TD ALIGN="right">24095,4</TD>
+<TD ALIGN="right">44,037</TD>
+<TD ALIGN="right">9,572</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,893</TD>
+<TD ALIGN="right">9,65</TD>
+<TD ALIGN="right">0,224</TD>
+<TD ALIGN="right">2,091</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,400</b></TD>
+<TD ALIGN="right">23528,2</TD>
+<TD ALIGN="right">24116,4</TD>
+<TD ALIGN="right">44,045</TD>
+<TD ALIGN="right">9,588</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,913</TD>
+<TD ALIGN="right">9,67</TD>
+<TD ALIGN="right">0,227</TD>
+<TD ALIGN="right">2,105</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,500</b></TD>
+<TD ALIGN="right">23548,8</TD>
+<TD ALIGN="right">24137,5</TD>
+<TD ALIGN="right">44,053</TD>
+<TD ALIGN="right">9,605</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,933</TD>
+<TD ALIGN="right">9,68</TD>
+<TD ALIGN="right">0,229</TD>
+<TD ALIGN="right">2,119</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,600</b></TD>
+<TD ALIGN="right">23569,6</TD>
+<TD ALIGN="right">24158,8</TD>
+<TD ALIGN="right">44,061</TD>
+<TD ALIGN="right">9,621</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,953</TD>
+<TD ALIGN="right">9,70</TD>
+<TD ALIGN="right">0,232</TD>
+<TD ALIGN="right">2,133</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,700</b></TD>
+<TD ALIGN="right">23590,4</TD>
+<TD ALIGN="right">24180,2</TD>
+<TD ALIGN="right">44,070</TD>
+<TD ALIGN="right">9,638</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,973</TD>
+<TD ALIGN="right">9,72</TD>
+<TD ALIGN="right">0,235</TD>
+<TD ALIGN="right">2,147</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,800</b></TD>
+<TD ALIGN="right">23611,5</TD>
+<TD ALIGN="right">24201,7</TD>
+<TD ALIGN="right">44,078</TD>
+<TD ALIGN="right">9,655</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,994</TD>
+<TD ALIGN="right">9,74</TD>
+<TD ALIGN="right">0,238</TD>
+<TD ALIGN="right">2,161</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>28,900</b></TD>
+<TD ALIGN="right">23632,6</TD>
+<TD ALIGN="right">24223,4</TD>
+<TD ALIGN="right">44,086</TD>
+<TD ALIGN="right">9,672</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">10,015</TD>
+<TD ALIGN="right">9,75</TD>
+<TD ALIGN="right">0,241</TD>
+<TD ALIGN="right">2,176</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,000</b></TD>
+<TD ALIGN="right">23653,5</TD>
+<TD ALIGN="right">24244,9</TD>
+<TD ALIGN="right">44,094</TD>
+<TD ALIGN="right">9,689</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">10,007</TD>
+<TD ALIGN="right">9,77</TD>
+<TD ALIGN="right">0,222</TD>
+<TD ALIGN="right">2,075</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,100</b></TD>
+<TD ALIGN="right">23673,0</TD>
+<TD ALIGN="right">24264,8</TD>
+<TD ALIGN="right">44,102</TD>
+<TD ALIGN="right">9,705</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,986</TD>
+<TD ALIGN="right">9,77</TD>
+<TD ALIGN="right">0,196</TD>
+<TD ALIGN="right">1,921</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,200</b></TD>
+<TD ALIGN="right">23691,0</TD>
+<TD ALIGN="right">24283,3</TD>
+<TD ALIGN="right">44,109</TD>
+<TD ALIGN="right">9,720</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,968</TD>
+<TD ALIGN="right">9,78</TD>
+<TD ALIGN="right">0,173</TD>
+<TD ALIGN="right">1,773</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,300</b></TD>
+<TD ALIGN="right">23707,6</TD>
+<TD ALIGN="right">24300,3</TD>
+<TD ALIGN="right">44,115</TD>
+<TD ALIGN="right">9,734</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,951</TD>
+<TD ALIGN="right">9,79</TD>
+<TD ALIGN="right">0,153</TD>
+<TD ALIGN="right">1,629</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,400</b></TD>
+<TD ALIGN="right">23714,0</TD>
+<TD ALIGN="right">24306,8</TD>
+<TD ALIGN="right">44,117</TD>
+<TD ALIGN="right">9,739</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,777</TD>
+<TD ALIGN="right">9,74</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,500</b></TD>
+<TD ALIGN="right">23715,8</TD>
+<TD ALIGN="right">24308,7</TD>
+<TD ALIGN="right">44,118</TD>
+<TD ALIGN="right">9,741</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,778</TD>
+<TD ALIGN="right">9,74</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,600</b></TD>
+<TD ALIGN="right">23717,6</TD>
+<TD ALIGN="right">24310,5</TD>
+<TD ALIGN="right">44,118</TD>
+<TD ALIGN="right">9,742</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,780</TD>
+<TD ALIGN="right">9,74</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,700</b></TD>
+<TD ALIGN="right">23719,4</TD>
+<TD ALIGN="right">24312,4</TD>
+<TD ALIGN="right">44,118</TD>
+<TD ALIGN="right">9,744</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,781</TD>
+<TD ALIGN="right">9,74</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,800</b></TD>
+<TD ALIGN="right">23721,2</TD>
+<TD ALIGN="right">24314,2</TD>
+<TD ALIGN="right">44,119</TD>
+<TD ALIGN="right">9,745</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,783</TD>
+<TD ALIGN="right">9,75</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>29,900</b></TD>
+<TD ALIGN="right">23723,0</TD>
+<TD ALIGN="right">24316,1</TD>
+<TD ALIGN="right">44,119</TD>
+<TD ALIGN="right">9,747</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,784</TD>
+<TD ALIGN="right">9,75</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+<TR>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+<TD ALIGN="right"> </TD>
+</TR>
+<TR>
+<TD ALIGN="right"><b>30,000</b></TD>
+<TD ALIGN="right">23724,8</TD>
+<TD ALIGN="right">24317,9</TD>
+<TD ALIGN="right">44,119</TD>
+<TD ALIGN="right">9,748</TD>
+<TD ALIGN="right">0,000</TD>
+<TD ALIGN="right">9,786</TD>
+<TD ALIGN="right">9,75</TD>
+<TD ALIGN="right">0,002</TD>
+<TD ALIGN="right">0,184</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+</CENTER>
+  NOTE 1: Draft (and all other vertical heights) is measured from base Z=0,000<br>  NOTE 2: All calculated coefficients based on actual dimensions of submerged body.<br><br>
+<TABLE WIDTH="100%" CELLSPACING="0">
+<THEAD>
+<TR CLASS="DS_Table_Title">
+<TD CLASS="DS_Table_Title" COLSPAN="2">Nomenclature</TD>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD><b>Draft</b></TD>
+<TD><i>Moulded draft, measured from baseline</i></TD>
+</TR>
+<TR>
+<TD><b>Displ FW</b></TD>
+<TD><i>Displacement fresh water</i></TD>
+</TR>
+<TR>
+<TD><b>Displ.</b></TD>
+<TD><i>Displacement</i></TD>
+</TR>
+<TR>
+<TD><b>LCB</b></TD>
+<TD><i>Longitudinal center of buoyancy, measured from the aft perpendicular at X=0.0</i></TD>
+</TR>
+<TR>
+<TD><b>VCB</b></TD>
+<TD><i>Vertical center of buoyancy</i></TD>
+</TR>
+<TR>
+<TD><b>TCB</b></TD>
+<TD><i>Transverse center of buoyancy</i></TD>
+</TR>
+<TR>
+<TD><b>KMt</b></TD>
+<TD><i>Transverse metacentric height</i></TD>
+</TR>
+<TR>
+<TD><b>KMl</b></TD>
+<TD><i>Longitudinal metacentric height</i></TD>
+</TR>
+<TR>
+<TD><b>MCT</b></TD>
+<TD><i>Moment to change trim one unit</i></TD>
+</TR>
+<TR>
+<TD><b>TpCm</b></TD>
+<TD><i>Weight to change the immersion with one unit</i></TD>
+</TR>
+</TBODY>
+</TABLE>
+    
+</BODY>
+</html>
