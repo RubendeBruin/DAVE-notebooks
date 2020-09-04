@@ -1,0 +1,95 @@
+---
+6DBuoys:
+- CentreOfMass:
+  - 1.7
+  - 3.6
+  - -2.0
+  Connection: Free
+  InitialAttitude:
+  - -15.084807971393387
+  - 5.119573764434133
+  - 2.608390697316091
+  InitialPosition:
+  - 0.13234630381127258
+  - -0.6331998330680191
+  - -0.45590270959357754
+  Mass: 10.0
+  MomentsOfInertia:
+  - 0.0
+  - 0.0
+  - 0.0
+  Name: Body
+  Volume: 0
+Winches:
+- Connection:
+  - Fixed
+  - Body
+  ConnectionX:
+  - 7.0
+  - 7.0
+  ConnectionY:
+  - 5.0
+  - 5.0
+  ConnectionZ:
+  - 10.0
+  - 4.0
+  Name: Cable2
+  NumberOfConnections: 2
+  StageMode:
+  - Specified Length
+  - Specified Payout
+  - Specified Payout
+  StageValue:
+  - 6.0
+  - 0
+  - 0
+  Stiffness: 100.0
+  WinchControlType: By Stage
+- Connection:
+  - Fixed
+  - Body
+  ConnectionX:
+  - 1.0
+  - 0.0
+  ConnectionY:
+  - -3.0
+  - -3.0
+  ConnectionZ:
+  - 11.0
+  - 0.0
+  Name: Cable1
+  NumberOfConnections: 2
+  StageMode:
+  - Specified Length
+  - Specified Payout
+  - Specified Payout
+  StageValue:
+  - 10.0
+  - 0
+  - 0
+  Stiffness: 400.0
+  WinchControlType: By Stage
+- Connection:
+  - Body
+  - Fixed
+  ConnectionX:
+  - -7.0
+  - -7.0
+  ConnectionY:
+  - 4.0
+  - 4.0
+  ConnectionZ:
+  - 3.0
+  - 10.0
+  Name: Cable3
+  NumberOfConnections: 2
+  StageMode:
+  - Specified Length
+  - Specified Payout
+  - Specified Payout
+  StageValue:
+  - 7.0
+  - 0
+  - 0
+  Stiffness: 200.0
+  WinchControlType: By Stage
